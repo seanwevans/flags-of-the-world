@@ -4,6 +4,7 @@ Below is an alphabetical list of all **193** United Nations member countries, ea
 Use this file as a reference for which flags are completed.
 
 ## Completed
+* 🇯🇵 Japan
 * 🇺🇦 Ukraine
 * 🇺🇸 United States
 
@@ -92,7 +93,6 @@ Use this file as a reference for which flags are completed.
 * 🇮🇱 Israel
 * 🇮🇹 Italy
 * 🇯🇲 Jamaica
-* 🇯🇵 Japan
 * 🇯🇴 Jordan
 * 🇰🇿 Kazakhstan
 * 🇰🇪 Kenya

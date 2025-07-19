@@ -4,6 +4,7 @@ Below is an alphabetical list of all **193** United Nations member countries, ea
 Use this file as a reference for which flags are completed.
 
 ## Completed
+* 🇺🇦 Ukraine
 * 🇺🇸 United States
 
 ## To do
@@ -188,7 +189,6 @@ Use this file as a reference for which flags are completed.
 * 🇹🇲 Turkmenistan
 * 🇹🇻 Tuvalu
 * 🇺🇬 Uganda
-* 🇺🇦 Ukraine
 * 🇦🇪 United Arab Emirates
 * 🇬🇧 United Kingdom
 

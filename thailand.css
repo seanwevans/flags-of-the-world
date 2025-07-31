@@ -1,0 +1,27 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Thailand */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --thai-red: #a51931;
+  --thai-white: #ffffff;
+  --thai-blue: #2d2a4a;
+}
+
+#thailand {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--thai-red) 0%,
+    var(--thai-red) 20%,
+    var(--thai-white) 20%,
+    var(--thai-white) 40%,
+    var(--thai-blue) 40%,
+    var(--thai-blue) 60%,
+    var(--thai-white) 60%,
+    var(--thai-white) 80%,
+    var(--thai-red) 80%,
+    var(--thai-red) 100%
+  );
+}

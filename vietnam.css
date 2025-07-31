@@ -1,0 +1,26 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Vietnam */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --vietnam-red: #da251d;
+  --vietnam-yellow: #ffde00;
+}
+
+#vietnam {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--vietnam-red);
+}
+
+#vietnam::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%23ffde00" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11"/></svg>') no-repeat center/contain;
+}

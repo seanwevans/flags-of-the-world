@@ -1,0 +1,46 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Democratic_Republic_of_the_Congo */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 4;
+  --drc-blue: #007fff;
+  --drc-red: #ce1021;
+  --drc-yellow: #f7d618;
+}
+
+#congo-drc {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--drc-blue);
+}
+
+#congo-drc::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    transparent 0%,
+    transparent 33%,
+    var(--drc-red) 33%,
+    var(--drc-red) 50%,
+    transparent 50%,
+    transparent 100%
+  );
+  border-left: calc(6% + 1px) solid var(--drc-yellow);
+  border-right: calc(6% + 1px) solid var(--drc-yellow);
+}
+
+#congo-drc::after {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 5%;
+  left: 5%;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%23f7d618" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11"/></svg>') no-repeat center/contain;
+}

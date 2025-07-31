@@ -1,0 +1,38 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Tunisia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --tunisia-red: #e70013;
+  --tunisia-white: #ffffff;
+}
+
+#tunisia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--tunisia-red);
+}
+
+#tunisia::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--tunisia-white);
+  border-radius: 50%;
+}
+
+#tunisia::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23e70013" d="M50 20a15 15 0 0 0 0 60 30 30 0 1 1 0-60z"/><polygon fill="%23e70013" points="50,35 54,46 66,46 56,53 60,65 50,58 40,65 44,53 34,46 46,46"/></svg>') no-repeat center/contain;
+}

@@ -1,0 +1,33 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Qatar */
+
+:root {
+  --flag-height: 11;
+  --flag-width: 28;
+  --qatar-maroon: #8a1538;
+  --qatar-white: #ffffff;
+}
+
+#qatar {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--qatar-maroon);
+}
+
+#qatar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      var(--qatar-white) 0,
+      var(--qatar-white) 8%,
+      transparent 8%,
+      transparent 12%
+    );
+  background-color: var(--qatar-white);
+}

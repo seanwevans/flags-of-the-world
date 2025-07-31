@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Egypt */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --egypt-red: #ce1126;
+  --egypt-white: #ffffff;
+  --egypt-black: #000000;
+}
+
+#egypt {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--egypt-red) 0%,
+    var(--egypt-red) 33.333%,
+    var(--egypt-white) 33.333%,
+    var(--egypt-white) 66.666%,
+    var(--egypt-black) 66.666%,
+    var(--egypt-black) 100%
+  );
+}

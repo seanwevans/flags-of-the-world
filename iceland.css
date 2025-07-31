@@ -1,0 +1,38 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Iceland */
+
+:root {
+  --flag-height: 18;
+  --flag-width: 25;
+  --iceland-blue: #003897;
+  --iceland-red: #d72828;
+  --iceland-white: #ffffff;
+}
+
+#iceland {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background:
+    linear-gradient(90deg,
+      transparent 0%,
+      transparent 32%,
+      var(--iceland-white) 32%,
+      var(--iceland-white) 40%,
+      var(--iceland-red) 40%,
+      var(--iceland-red) 48%,
+      var(--iceland-white) 48%,
+      var(--iceland-white) 56%,
+      transparent 56%,
+      transparent 100%),
+    linear-gradient(180deg,
+      transparent 0%,
+      transparent 44%,
+      var(--iceland-white) 44%,
+      var(--iceland-white) 52%,
+      var(--iceland-red) 52%,
+      var(--iceland-red) 60%,
+      var(--iceland-white) 60%,
+      var(--iceland-white) 68%,
+      transparent 68%,
+      transparent 100%),
+    var(--iceland-blue);
+}

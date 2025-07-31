@@ -1,0 +1,36 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Switzerland */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 1;
+  --switzerland-red: #d52b1e;
+  --switzerland-white: #ffffff;
+}
+
+#switzerland {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  background: var(--switzerland-red);
+}
+
+#switzerland::before,
+#switzerland::after {
+  content: "";
+  position: absolute;
+  background: var(--switzerland-white);
+}
+
+#switzerland::before {
+  width: 60%;
+  height: 20%;
+  top: 40%;
+  left: 20%;
+}
+
+#switzerland::after {
+  width: 20%;
+  height: 60%;
+  top: 20%;
+  left: 40%;
+}

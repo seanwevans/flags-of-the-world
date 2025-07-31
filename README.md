@@ -11,14 +11,16 @@ Here is a [live gallery of the completed flags](https://seanwevans.github.io/fla
 Below is a list of all **193** United Nations member countries
 
 ## Completed
+* 🇩🇿 Algeria
 * 🇦🇲 Armenia
 * 🇯🇵 Japan
-* 🇵🇱 Poland
+* 🇲🇦 Morocco
 * 🇳🇬 Nigeria
+* 🇵🇱 Poland
 * 🇺🇦 Ukraine
 * 🇺🇸 United States
-* 🇲🇦 Morocco
-* 🇩🇿 Algeria
+
+
 
 ## To do
 * 🇦🇫 Afghanistan

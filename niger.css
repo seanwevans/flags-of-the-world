@@ -27,7 +27,7 @@
 #niger::before {
   content: "";
   position: absolute;
-  width: var(--niger-disc-size);
+  width: calc(var(--niger-disc-size) * var(--flag-height) / var(--flag-width));
   height: var(--niger-disc-size);
   top: 50%;
   left: 50%;

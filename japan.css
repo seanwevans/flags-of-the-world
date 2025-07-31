@@ -18,7 +18,7 @@
 #japan::before {
   content: "";
   position: absolute;
-  width: calc(0.6*var(--japan-disk-diameter));
+  width: calc(var(--japan-disk-diameter) * var(--flag-height) / var(--flag-width));
   height: var(--japan-disk-diameter);
   background: var(--japan-red);
   border-radius: 50%;

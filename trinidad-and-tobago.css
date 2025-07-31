@@ -1,0 +1,28 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Trinidad_and_Tobago */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --tnt-red: #ce1126;
+  --tnt-white: #ffffff;
+  --tnt-black: #000000;
+}
+
+#trinidad-and-tobago {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    135deg,
+    var(--tnt-red) 0%,
+    var(--tnt-red) 40%,
+    var(--tnt-white) 40%,
+    var(--tnt-white) 45%,
+    var(--tnt-black) 45%,
+    var(--tnt-black) 55%,
+    var(--tnt-white) 55%,
+    var(--tnt-white) 60%,
+    var(--tnt-red) 60%,
+    var(--tnt-red) 100%
+  );
+}
+

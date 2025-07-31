@@ -1,0 +1,42 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Nauru */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --nauru-blue: #002b7f;
+  --nauru-yellow: #ffc61e;
+  --nauru-white: #ffffff;
+}
+
+#nauru {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--nauru-blue);
+}
+
+#nauru::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  transform: translateY(-50%);
+  background: var(--nauru-yellow);
+}
+
+#nauru::after {
+  content: "";
+  position: absolute;
+  width: 18%;
+  height: 18%;
+  bottom: 15%;
+  left: 25%;
+  transform: translate(-50%, 50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon fill="%23ffffff" points="100.00,50.00 69.32,55.18 93.30,75.00 64.14,64.14 75.00,93.30 55.18,69.32 50.00,100.00 44.82,69.32 25.00,93.30 35.86,64.14 6.70,75.00 30.68,55.18 0.00,50.00 30.68,44.82 6.70,25.00 35.86,35.86 25.00,6.70 44.82,30.68 50.00,0.00 55.18,30.68 75.00,6.70 64.14,35.86 93.30,25.00 69.32,44.82"/></svg>');
+}
+

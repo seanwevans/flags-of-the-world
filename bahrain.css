@@ -1,0 +1,34 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Bahrain */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --bahrain-red: #ce1126;
+  --bahrain-white: #ffffff;
+}
+
+#bahrain {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--bahrain-red);
+}
+
+#bahrain::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background:
+    repeating-linear-gradient(
+      60deg,
+      var(--bahrain-white) 0,
+      var(--bahrain-white) 10%,
+      transparent 10%,
+      transparent 20%
+    );
+  background-color: var(--bahrain-white);
+}
+

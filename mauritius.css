@@ -1,0 +1,27 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Mauritius */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --mauritius-red: #ea2839;
+  --mauritius-blue: #1a206d;
+  --mauritius-yellow: #ffd500;
+  --mauritius-green: #00a95c;
+}
+
+#mauritius {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--mauritius-red) 0%,
+    var(--mauritius-red) 25%,
+    var(--mauritius-blue) 25%,
+    var(--mauritius-blue) 50%,
+    var(--mauritius-yellow) 50%,
+    var(--mauritius-yellow) 75%,
+    var(--mauritius-green) 75%,
+    var(--mauritius-green) 100%
+  );
+}
+

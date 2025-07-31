@@ -1,0 +1,36 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Sudan */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --sudan-red: #d21034;
+  --sudan-white: #ffffff;
+  --sudan-black: #000000;
+  --sudan-green: #007229;
+}
+
+#sudan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--sudan-red) 0%,
+    var(--sudan-red) 33.333%,
+    var(--sudan-white) 33.333%,
+    var(--sudan-white) 66.666%,
+    var(--sudan-black) 66.666%,
+    var(--sudan-black) 100%
+  );
+}
+
+#sudan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(60deg, var(--sudan-green) 50%, transparent 50%);
+}
+

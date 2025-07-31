@@ -1,0 +1,37 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Libya */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --libya-red: #ff0000;
+  --libya-black: #000000;
+  --libya-green: #239e46;
+  --libya-white: #ffffff;
+}
+
+#libya {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--libya-red) 0%,
+    var(--libya-red) 25%,
+    var(--libya-black) 25%,
+    var(--libya-black) 75%,
+    var(--libya-green) 75%,
+    var(--libya-green) 100%
+  );
+}
+
+#libya::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffffff" d="M50 30a20 20 0 1 0 0 40 40 40 0 1 1 0-40z"/><polygon fill="%23ffffff" points="50,35 54,46 66,46 56,53 60,65 50,58 40,65 44,53 34,46 46,46"/></svg>') no-repeat center/contain;
+}
+

@@ -1,0 +1,37 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Pakistan */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --pakistan-green: #01411c;
+  --pakistan-white: #ffffff;
+}
+
+#pakistan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--pakistan-green);
+}
+
+#pakistan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background: var(--pakistan-white);
+}
+
+#pakistan::after {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 35%;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffffff" d="M60 50a20 20 0 1 1-20-20 30 30 0 1 0 20 20z"/><polygon fill="%23ffffff" points="60,35 64,46 76,46 66,53 70,65 60,58 50,65 54,53 44,46 56,46"/></svg>') no-repeat center/contain;
+}
+

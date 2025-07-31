@@ -1,0 +1,29 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Tanzania */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --tanzania-green: #1eb53a;
+  --tanzania-yellow: #fcd116;
+  --tanzania-black: #000000;
+  --tanzania-blue: #00a3dd;
+}
+
+#tanzania {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    45deg,
+    var(--tanzania-green) 0%,
+    var(--tanzania-green) 45%,
+    var(--tanzania-yellow) 45%,
+    var(--tanzania-yellow) 50%,
+    var(--tanzania-black) 50%,
+    var(--tanzania-black) 60%,
+    var(--tanzania-yellow) 60%,
+    var(--tanzania-yellow) 65%,
+    var(--tanzania-blue) 65%,
+    var(--tanzania-blue) 100%
+  );
+}
+

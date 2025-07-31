@@ -4,21 +4,21 @@ Welcome to Flags of the World, a community-maintained showcase of national flags
 The goal is to collect correct, scalable, and self-contained stylesheets for every sovereign nation’s flag.
 The goal being: Drop a `<div>` (i.e. `<div id="usa" />`) on the page, add a single class, and you’re flying colors.
 
-Here is a [live gallery of the completed flags](https://seanwevans.github.io/flags-of-the-world/)
+Here is a [gallery of the completed flags](https://seanwevans.github.io/flags-of-the-world/)
 
 # UN Member States
 
 Below is a list of all **193** United Nations member countries
 
 ## Completed
-* 🇩🇿 Algeria
-* 🇦🇲 Armenia
-* 🇯🇵 Japan
-* 🇲🇦 Morocco
-* 🇳🇬 Nigeria
-* 🇵🇱 Poland
-* 🇺🇦 Ukraine
-* 🇺🇸 United States
+* [🇩🇿 Algeria](https://en.wikipedia.org/wiki/Flag_of_Algeria)
+* [🇦🇲 Armenia](https://en.wikipedia.org/wiki/Flag_of_Armenia)
+* [🇯🇵 Japan](https://en.wikipedia.org/wiki/Flag_of_Japan)
+* [🇲🇦 Morocco](https://en.wikipedia.org/wiki/Flag_of_Morocco)
+* [🇳🇬 Nigeria](https://en.wikipedia.org/wiki/Flag_of_Nigeria)
+* [🇵🇱 Poland](https://en.wikipedia.org/wiki/Flag_of_Poland)
+* [🇺🇦 Ukraine](https://en.wikipedia.org/wiki/Flag_of_Ukraine)
+* [🇺🇸 United States](https://en.wikipedia.org/wiki/Flag_of_the_United_States)
 
 
 

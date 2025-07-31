@@ -8,8 +8,7 @@ A live gallery of the completed flags is automatically published to GitHub Pages
 
 # UN Member States (Flag Emoji Reference)
 
-Below is an alphabetical list of all **193** United Nations member countries, each preceded by its flag emoji.  
-Use this file as a reference for which flags are completed.
+Below is a list of all **193** United Nations member countries
 
 ## Completed
 * 🇦🇲 Armenia

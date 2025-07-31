@@ -1,8 +1,8 @@
-# Flags of the World — A CSS Collection
+# Flags of the World
 
-Welcome to Flags of the World, a showcase of national flags rendered with just CSS.
-The goal is to collect correct, scalable, and self-contained stylesheets for each polity 
-that can be used simply with a single div (i.e. `<div id="usa" />`).
+A showcase of national flags rendered with pure CSS.
+We aim to collect correct, scalable, and self-contained stylesheets for each polity 
+that can be used as a single self-contained div (i.e. `<div id="usa" />`).
 
 A [gallery of the completed flags](https://seanwevans.github.io/flags-of-the-world/)
 

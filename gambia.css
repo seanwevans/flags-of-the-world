@@ -1,0 +1,29 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_The_Gambia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --gambia-red: #ce1126;
+  --gambia-blue: #0c1c8c;
+  --gambia-green: #3a7728;
+  --gambia-white: #ffffff;
+}
+
+#gambia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--gambia-red) 0%,
+    var(--gambia-red) 33.333%,
+    var(--gambia-white) 33.333%,
+    var(--gambia-white) 38.888%,
+    var(--gambia-blue) 38.888%,
+    var(--gambia-blue) 61.111%,
+    var(--gambia-white) 61.111%,
+    var(--gambia-white) 66.666%,
+    var(--gambia-green) 66.666%,
+    var(--gambia-green) 100%
+  );
+}

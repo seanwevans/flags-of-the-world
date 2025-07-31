@@ -1,0 +1,34 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Denmark */
+
+:root {
+  --flag-height: 28;
+  --flag-width: 37;
+  --denmark-red: #c60c30;
+  --denmark-white: #ffffff;
+}
+
+#denmark {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--denmark-red);
+}
+
+#denmark::before,
+#denmark::after {
+  content: "";
+  position: absolute;
+  background: var(--denmark-white);
+}
+
+#denmark::before {
+  width: 15%;
+  height: 100%;
+  left: 30%;
+}
+
+#denmark::after {
+  width: 100%;
+  height: 15%;
+  top: 40%;
+}

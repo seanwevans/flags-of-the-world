@@ -1,0 +1,40 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Ghana */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --ghana-red: #ce1126;
+  --ghana-gold: #fcd116;
+  --ghana-green: #006b3f;
+  --ghana-black: #000000;
+  --ghana-star-size: 25%;
+}
+
+#ghana {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--ghana-red) 0%,
+    var(--ghana-red) 33.333%,
+    var(--ghana-gold) 33.333%,
+    var(--ghana-gold) 66.666%,
+    var(--ghana-green) 66.666%,
+    var(--ghana-green) 100%
+  );
+}
+
+#ghana::before {
+  content: "";
+  position: absolute;
+  width: var(--ghana-star-size);
+  height: var(--ghana-star-size);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%23000000" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11"/></svg>');
+}

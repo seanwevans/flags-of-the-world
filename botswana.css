@@ -1,0 +1,28 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Botswana */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --botswana-blue: #6da9d2;
+  --botswana-black: #000000;
+  --botswana-white: #ffffff;
+}
+
+#botswana {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--botswana-blue) 0%,
+    var(--botswana-blue) 40%,
+    var(--botswana-white) 40%,
+    var(--botswana-white) 45%,
+    var(--botswana-black) 45%,
+    var(--botswana-black) 55%,
+    var(--botswana-white) 55%,
+    var(--botswana-white) 60%,
+    var(--botswana-blue) 60%,
+    var(--botswana-blue) 100%
+  );
+}

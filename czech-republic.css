@@ -1,0 +1,33 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Czech_Republic */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --czech-white: #ffffff;
+  --czech-red: #d7141a;
+  --czech-blue: #11457e;
+}
+
+#czech-republic {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--czech-white) 0%,
+    var(--czech-white) 50%,
+    var(--czech-red) 50%,
+    var(--czech-red) 100%
+  );
+}
+
+#czech-republic::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--czech-blue);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}

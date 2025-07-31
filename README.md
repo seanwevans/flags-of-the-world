@@ -43,7 +43,7 @@ Below is a list of all **193** United Nations member countries
 * [🇳🇬 Nigeria](https://en.wikipedia.org/wiki/Flag_of_Nigeria)
 * [🇵🇱 Poland](https://en.wikipedia.org/wiki/Flag_of_Poland)
 * [🇷🇴 Romania](https://en.wikipedia.org/wiki/Flag_of_Romania)
-* [🇷🇺 Russia](https://wildhornets.com)
+* [🇷🇺 Russia](https://send.monobank.ua/jar/E5kHzqvBb)
 * [🇺🇦 Ukraine](https://en.wikipedia.org/wiki/Flag_of_Ukraine)
 * [🇺🇸 United States](https://en.wikipedia.org/wiki/Flag_of_the_United_States)
 ## To do

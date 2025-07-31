@@ -7,6 +7,7 @@ Use this file as a reference for which flags are completed.
 * 🇯🇵 Japan
 * 🇺🇦 Ukraine
 * 🇺🇸 United States
+* 🇲🇦 Morocco
 
 ## To do
 * 🇦🇫 Afghanistan
@@ -123,7 +124,6 @@ Use this file as a reference for which flags are completed.
 * 🇲🇨 Monaco
 * 🇲🇳 Mongolia
 * 🇲🇪 Montenegro
-* 🇲🇦 Morocco
 * 🇲🇿 Mozambique
 * 🇲🇲 Myanmar
 * 🇳🇦 Namibia

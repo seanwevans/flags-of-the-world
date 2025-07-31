@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Monaco */
+
+:root {
+  --flag-height: 4;
+  --flag-width: 5;
+  --monaco-red: #ce1126;
+  --monaco-white: #ffffff;
+}
+
+#monaco {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--monaco-red) 0%,
+    var(--monaco-red) 50%,
+    var(--monaco-white) 50%,
+    var(--monaco-white) 100%
+  );
+}

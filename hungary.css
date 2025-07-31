@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Hungary */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --hungary-red: #ce2939;
+  --hungary-white: #ffffff;
+  --hungary-green: #477050;
+}
+
+#hungary {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--hungary-red) 0%,
+    var(--hungary-red) 33.333%,
+    var(--hungary-white) 33.333%,
+    var(--hungary-white) 66.666%,
+    var(--hungary-green) 66.666%,
+    var(--hungary-green) 100%
+  );
+}

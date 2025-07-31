@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Russia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --russia-white: #ffffff;
+  --russia-blue: #0039a6;
+  --russia-red: #d52b1e;
+}
+
+#russia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--russia-white) 0%,
+    var(--russia-white) 33.333%,
+    var(--russia-blue) 33.333%,
+    var(--russia-blue) 66.666%,
+    var(--russia-red) 66.666%,
+    var(--russia-red) 100%
+  );
+}

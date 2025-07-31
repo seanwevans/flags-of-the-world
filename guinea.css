@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Guinea */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --guinea-red: #ce1126;
+  --guinea-yellow: #fcd116;
+  --guinea-green: #009460;
+}
+
+#guinea {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--guinea-red) 0%,
+    var(--guinea-red) 33.333%,
+    var(--guinea-yellow) 33.333%,
+    var(--guinea-yellow) 66.666%,
+    var(--guinea-green) 66.666%,
+    var(--guinea-green) 100%
+  );
+}

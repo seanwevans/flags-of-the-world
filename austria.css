@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Austria */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --austria-red: #ed2939;
+  --austria-white: #ffffff;
+}
+
+#austria {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--austria-red) 0%,
+    var(--austria-red) 33.333%,
+    var(--austria-white) 33.333%,
+    var(--austria-white) 66.666%,
+    var(--austria-red) 66.666%,
+    var(--austria-red) 100%
+  );
+}

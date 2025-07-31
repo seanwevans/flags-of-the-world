@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Ivory_Coast */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --ivory-orange: #f77f00;
+  --ivory-white: #ffffff;
+  --ivory-green: #009e60;
+}
+
+#ivory-coast {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--ivory-orange) 0%,
+    var(--ivory-orange) 33.333%,
+    var(--ivory-white) 33.333%,
+    var(--ivory-white) 66.666%,
+    var(--ivory-green) 66.666%,
+    var(--ivory-green) 100%
+  );
+}

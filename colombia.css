@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Colombia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --colombia-yellow: #ffd600;
+  --colombia-blue: #003893;
+  --colombia-red: #ce1126;
+}
+
+#colombia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--colombia-yellow) 0%,
+    var(--colombia-yellow) 50%,
+    var(--colombia-blue) 50%,
+    var(--colombia-blue) 75%,
+    var(--colombia-red) 75%,
+    var(--colombia-red) 100%
+  );
+}

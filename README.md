@@ -19,16 +19,33 @@ Below is a list of all **193** United Nations member countries
 ## Completed
 * [🇩🇿 Algeria](https://en.wikipedia.org/wiki/Flag_of_Algeria)
 * [🇦🇲 Armenia](https://en.wikipedia.org/wiki/Flag_of_Armenia)
+* [🇦🇹 Austria](https://en.wikipedia.org/wiki/Flag_of_Austria)
+* [🇧🇪 Belgium](https://en.wikipedia.org/wiki/Flag_of_Belgium)
+* [🇧🇬 Bulgaria](https://en.wikipedia.org/wiki/Flag_of_Bulgaria)
+* [🇹🇩 Chad](https://en.wikipedia.org/wiki/Flag_of_Chad)
+* [🇨🇴 Colombia](https://en.wikipedia.org/wiki/Flag_of_Colombia)
+* [🇪🇪 Estonia](https://en.wikipedia.org/wiki/Flag_of_Estonia)
 * [🇫🇷 France](https://en.wikipedia.org/wiki/Flag_of_France)
+* [🇩🇪 Germany](https://en.wikipedia.org/wiki/Flag_of_Germany)
+* [🇬🇳 Guinea](https://en.wikipedia.org/wiki/Flag_of_Guinea)
+* [🇭🇺 Hungary](https://en.wikipedia.org/wiki/Flag_of_Hungary)
+* [🇮🇩 Indonesia](https://en.wikipedia.org/wiki/Flag_of_Indonesia)
+* [🇮🇪 Ireland](https://en.wikipedia.org/wiki/Flag_of_Ireland)
+* [🇮🇹 Italy](https://en.wikipedia.org/wiki/Flag_of_Italy)
+* [🇨🇮 Côte d’Ivoire](https://en.wikipedia.org/wiki/Flag_of_Ivory_Coast)
 * [🇯🇵 Japan](https://en.wikipedia.org/wiki/Flag_of_Japan)
+* [🇱🇹 Lithuania](https://en.wikipedia.org/wiki/Flag_of_Lithuania)
+* [🇱🇺 Luxembourg](https://en.wikipedia.org/wiki/Flag_of_Luxembourg)
+* [🇲🇱 Mali](https://en.wikipedia.org/wiki/Flag_of_Mali)
+* [🇲🇨 Monaco](https://en.wikipedia.org/wiki/Flag_of_Monaco)
 * [🇲🇦 Morocco](https://en.wikipedia.org/wiki/Flag_of_Morocco)
+* [🇳🇱 Netherlands](https://en.wikipedia.org/wiki/Flag_of_the_Netherlands)
 * [🇳🇬 Nigeria](https://en.wikipedia.org/wiki/Flag_of_Nigeria)
 * [🇵🇱 Poland](https://en.wikipedia.org/wiki/Flag_of_Poland)
+* [🇷🇴 Romania](https://en.wikipedia.org/wiki/Flag_of_Romania)
+* [🇷🇺 Russia](https://en.wikipedia.org/wiki/Flag_of_Russia)
 * [🇺🇦 Ukraine](https://en.wikipedia.org/wiki/Flag_of_Ukraine)
 * [🇺🇸 United States](https://en.wikipedia.org/wiki/Flag_of_the_United_States)
-
-
-
 ## To do
 * 🇦🇫 Afghanistan
 * 🇦🇱 Albania
@@ -37,14 +54,12 @@ Below is a list of all **193** United Nations member countries
 * 🇦🇬 Antigua and Barbuda
 * 🇦🇷 Argentina
 * 🇦🇺 Australia
-* 🇦🇹 Austria
 * 🇦🇿 Azerbaijan
 * 🇧🇸 Bahamas
 * 🇧🇭 Bahrain
 * 🇧🇩 Bangladesh
 * 🇧🇧 Barbados
 * 🇧🇾 Belarus
-* 🇧🇪 Belgium
 * 🇧🇿 Belize
 * 🇧🇯 Benin
 * 🇧🇹 Bhutan
@@ -53,7 +68,6 @@ Below is a list of all **193** United Nations member countries
 * 🇧🇼 Botswana
 * 🇧🇷 Brazil
 * 🇧🇳 Brunei
-* 🇧🇬 Bulgaria
 * 🇧🇫 Burkina Faso
 * 🇧🇮 Burundi
 * 🇨🇻 Cabo Verde
@@ -61,15 +75,12 @@ Below is a list of all **193** United Nations member countries
 * 🇨🇲 Cameroon
 * 🇨🇦 Canada
 * 🇨🇫 Central African Republic
-* 🇹🇩 Chad
 * 🇨🇱 Chile
 * 🇨🇳 China
-* 🇨🇴 Colombia
 * 🇰🇲 Comoros
 * 🇨🇬 Congo (Republic of the)
 * 🇨🇩 Congo (Democratic Republic of the)
 * 🇨🇷 Costa Rica
-* 🇨🇮 Côte d’Ivoire
 * 🇭🇷 Croatia
 * 🇨🇺 Cuba
 * 🇨🇾 Cyprus
@@ -81,9 +92,7 @@ Below is a list of all **193** United Nations member countries
 * 🇪🇨 Ecuador
 * 🇪🇬 Egypt
 * 🇸🇻 El Salvador
-* 🇬🇶 Equatorial Guinea
 * 🇪🇷 Eritrea
-* 🇪🇪 Estonia
 * 🇸🇿 Eswatini
 * 🇪🇹 Ethiopia
 * 🇫🇯 Fiji
@@ -91,25 +100,18 @@ Below is a list of all **193** United Nations member countries
 * 🇬🇦 Gabon
 * 🇬🇲 Gambia
 * 🇬🇪 Georgia
-* 🇩🇪 Germany
 * 🇬🇭 Ghana
 * 🇬🇷 Greece
 * 🇬🇩 Grenada
 * 🇬🇹 Guatemala
-* 🇬🇳 Guinea
-* 🇬🇼 Guinea‑Bissau
 * 🇬🇾 Guyana
 * 🇭🇹 Haiti
 * 🇭🇳 Honduras
-* 🇭🇺 Hungary
 * 🇮🇸 Iceland
 * 🇮🇳 India
-* 🇮🇩 Indonesia
 * 🇮🇷 Iran
 * 🇮🇶 Iraq
-* 🇮🇪 Ireland
 * 🇮🇱 Israel
-* 🇮🇹 Italy
 * 🇯🇲 Jamaica
 * 🇯🇴 Jordan
 * 🇰🇿 Kazakhstan
@@ -124,13 +126,10 @@ Below is a list of all **193** United Nations member countries
 * 🇱🇷 Liberia
 * 🇱🇾 Libya
 * 🇱🇮 Liechtenstein
-* 🇱🇹 Lithuania
-* 🇱🇺 Luxembourg
 * 🇲🇬 Madagascar
 * 🇲🇼 Malawi
 * 🇲🇾 Malaysia
 * 🇲🇻 Maldives
-* 🇲🇱 Mali
 * 🇲🇹 Malta
 * 🇲🇭 Marshall Islands
 * 🇲🇷 Mauritania
@@ -138,7 +137,6 @@ Below is a list of all **193** United Nations member countries
 * 🇲🇽 Mexico
 * 🇫🇲 Micronesia
 * 🇲🇩 Moldova
-* 🇲🇨 Monaco
 * 🇲🇳 Mongolia
 * 🇲🇪 Montenegro
 * 🇲🇿 Mozambique
@@ -146,7 +144,6 @@ Below is a list of all **193** United Nations member countries
 * 🇳🇦 Namibia
 * 🇳🇷 Nauru
 * 🇳🇵 Nepal
-* 🇳🇱 Netherlands
 * 🇳🇿 New Zealand
 * 🇳🇮 Nicaragua
 * 🇳🇪 Niger
@@ -157,14 +154,11 @@ Below is a list of all **193** United Nations member countries
 * 🇵🇰 Pakistan
 * 🇵🇼 Palau
 * 🇵🇦 Panama
-* 🇵🇬 Papua New Guinea
 * 🇵🇾 Paraguay
 * 🇵🇪 Peru
 * 🇵🇭 Philippines
 * 🇵🇹 Portugal
 * 🇶🇦 Qatar
-* 🇷🇴 Romania
-* 🇷🇺 Russia
 * 🇷🇼 Rwanda
 * 🇰🇳 Saint Kitts and Nevis
 * 🇱🇨 Saint Lucia

@@ -27,7 +27,7 @@
 #laos::before {
   content: "";
   position: absolute;
-  width: var(--laos-disc-size);
+  width: calc(var(--laos-disc-size) * var(--flag-height) / var(--flag-width));
   height: var(--laos-disc-size);
   top: 50%;
   left: 50%;

@@ -19,6 +19,7 @@ Below is a list of all **193** United Nations member countries
 ## Completed
 * [🇩🇿 Algeria](https://en.wikipedia.org/wiki/Flag_of_Algeria)
 * [🇦🇲 Armenia](https://en.wikipedia.org/wiki/Flag_of_Armenia)
+* [🇫🇷 France](https://en.wikipedia.org/wiki/Flag_of_France)
 * [🇯🇵 Japan](https://en.wikipedia.org/wiki/Flag_of_Japan)
 * [🇲🇦 Morocco](https://en.wikipedia.org/wiki/Flag_of_Morocco)
 * [🇳🇬 Nigeria](https://en.wikipedia.org/wiki/Flag_of_Nigeria)
@@ -87,7 +88,6 @@ Below is a list of all **193** United Nations member countries
 * 🇪🇹 Ethiopia
 * 🇫🇯 Fiji
 * 🇫🇮 Finland
-* 🇫🇷 France
 * 🇬🇦 Gabon
 * 🇬🇲 Gambia
 * 🇬🇪 Georgia

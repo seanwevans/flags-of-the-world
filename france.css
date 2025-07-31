@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_France */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --france-blue: #0055a4;
+  --france-white: #ffffff;
+  --france-red: #ef4135;
+}
+
+#france {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--france-blue) 0%,
+    var(--france-blue) 33.333%,
+    var(--france-white) 33.333%,
+    var(--france-white) 66.666%,
+    var(--france-red) 66.666%,
+    var(--france-red) 100%
+  );
+}

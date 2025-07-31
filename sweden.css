@@ -1,0 +1,34 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Sweden */
+
+:root {
+  --flag-height: 5;
+  --flag-width: 8;
+  --sweden-blue: #006aa7;
+  --sweden-yellow: #fecc00;
+}
+
+#sweden {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--sweden-blue);
+}
+
+#sweden::before,
+#sweden::after {
+  content: "";
+  position: absolute;
+  background: var(--sweden-yellow);
+}
+
+#sweden::before {
+  width: 12.5%;
+  height: 100%;
+  left: 30%;
+}
+
+#sweden::after {
+  width: 100%;
+  height: 12.5%;
+  top: 40%;
+}

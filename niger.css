@@ -1,0 +1,37 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Niger */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --niger-orange: #e05206;
+  --niger-white: #ffffff;
+  --niger-green: #0db02b;
+  --niger-disc-size: 20%;
+}
+
+#niger {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--niger-orange) 0%,
+    var(--niger-orange) 33.333%,
+    var(--niger-white) 33.333%,
+    var(--niger-white) 66.666%,
+    var(--niger-green) 66.666%,
+    var(--niger-green) 100%
+  );
+}
+
+#niger::before {
+  content: "";
+  position: absolute;
+  width: var(--niger-disc-size);
+  height: var(--niger-disc-size);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--niger-orange);
+  border-radius: 50%;
+}

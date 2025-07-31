@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Yemen */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --yemen-red: #ce1126;
+  --yemen-white: #ffffff;
+  --yemen-black: #000000;
+}
+
+#yemen {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--yemen-red) 0%,
+    var(--yemen-red) 33.333%,
+    var(--yemen-white) 33.333%,
+    var(--yemen-white) 66.666%,
+    var(--yemen-black) 66.666%,
+    var(--yemen-black) 100%
+  );
+}

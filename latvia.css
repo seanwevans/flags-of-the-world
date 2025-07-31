@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Latvia */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --latvia-maroon: #9e3039;
+  --latvia-white: #ffffff;
+}
+
+#latvia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--latvia-maroon) 0%,
+    var(--latvia-maroon) 40%,
+    var(--latvia-white) 40%,
+    var(--latvia-white) 60%,
+    var(--latvia-maroon) 60%,
+    var(--latvia-maroon) 100%
+  );
+}

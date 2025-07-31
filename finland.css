@@ -1,0 +1,34 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Finland */
+
+:root {
+  --flag-height: 11;
+  --flag-width: 18;
+  --finland-blue: #003580;
+  --finland-white: #ffffff;
+}
+
+#finland {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--finland-white);
+}
+
+#finland::before,
+#finland::after {
+  content: "";
+  position: absolute;
+  background: var(--finland-blue);
+}
+
+#finland::before {
+  width: 15%;
+  height: 100%;
+  left: 33%;
+}
+
+#finland::after {
+  width: 100%;
+  height: 15%;
+  top: 44%;
+}

@@ -1,0 +1,27 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Bangladesh */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --bangladesh-green: #006a4e;
+  --bangladesh-red: #f42a41;
+}
+
+#bangladesh {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--bangladesh-green);
+}
+
+#bangladesh::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bangladesh-red);
+  border-radius: 50%;
+}

@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Sierra_Leone */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --sierra-green: #1eb53a;
+  --sierra-white: #ffffff;
+  --sierra-blue: #0072c6;
+}
+
+#sierra-leone {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--sierra-green) 0%,
+    var(--sierra-green) 33.333%,
+    var(--sierra-white) 33.333%,
+    var(--sierra-white) 66.666%,
+    var(--sierra-blue) 66.666%,
+    var(--sierra-blue) 100%
+  );
+}

@@ -1,0 +1,36 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Kuwait */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --kuwait-green: #007a3d;
+  --kuwait-white: #ffffff;
+  --kuwait-red: #ce1126;
+  --kuwait-black: #000000;
+}
+
+#kuwait {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--kuwait-green) 0%,
+    var(--kuwait-green) 33.333%,
+    var(--kuwait-white) 33.333%,
+    var(--kuwait-white) 66.666%,
+    var(--kuwait-red) 66.666%,
+    var(--kuwait-red) 100%
+  );
+}
+
+#kuwait::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background: var(--kuwait-black);
+  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+}

@@ -1,0 +1,28 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Palau */
+
+:root {
+  --flag-height: 5;
+  --flag-width: 8;
+  --palau-blue: #4aadd6;
+  --palau-yellow: #ffde00;
+  --palau-disc-size: 50%;
+}
+
+#palau {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--palau-blue);
+}
+
+#palau::before {
+  content: "";
+  position: absolute;
+  width: var(--palau-disc-size);
+  height: var(--palau-disc-size);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--palau-yellow);
+  border-radius: 50%;
+}

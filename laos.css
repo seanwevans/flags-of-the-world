@@ -1,0 +1,37 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Laos */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --laos-red: #ce1126;
+  --laos-blue: #002868;
+  --laos-white: #ffffff;
+  --laos-disc-size: 40%;
+}
+
+#laos {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--laos-red) 0%,
+    var(--laos-red) 25%,
+    var(--laos-blue) 25%,
+    var(--laos-blue) 75%,
+    var(--laos-red) 75%,
+    var(--laos-red) 100%
+  );
+}
+
+#laos::before {
+  content: "";
+  position: absolute;
+  width: var(--laos-disc-size);
+  height: var(--laos-disc-size);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--laos-white);
+  border-radius: 50%;
+}

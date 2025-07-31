@@ -1,0 +1,25 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_China */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --china-red: #de2910;
+  --china-yellow: #ffde00;
+}
+
+#china {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--china-red);
+}
+
+#china::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  top: 0;
+  left: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><polygon fill="%23ffde00" points="150,0 184,114 300,114 207,182 242,296 150,228 58,296 93,182 0,114 116,114"/><polygon fill="%23ffde00" points="305,35 320,75 363,75 328,100 343,140 305,115 267,140 282,100 247,75 290,75"/><polygon fill="%23ffde00" points="375,86 390,126 433,126 398,151 413,191 375,166 337,191 352,151 317,126 360,126"/><polygon fill="%23ffde00" points="375,176 390,216 433,216 398,241 413,281 375,256 337,281 352,241 317,216 360,216"/><polygon fill="%23ffde00" points="305,227 320,267 363,267 328,292 343,332 305,307 267,332 282,292 247,267 290,267"/></svg>') no-repeat center/contain;
+}

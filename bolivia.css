@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Bolivia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --bolivia-red: #d52b1e;
+  --bolivia-yellow: #f9e300;
+  --bolivia-green: #007934;
+}
+
+#bolivia {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--bolivia-red) 0%,
+    var(--bolivia-red) 33.333%,
+    var(--bolivia-yellow) 33.333%,
+    var(--bolivia-yellow) 66.666%,
+    var(--bolivia-green) 66.666%,
+    var(--bolivia-green) 100%
+  );
+}

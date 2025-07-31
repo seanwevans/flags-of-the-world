@@ -1,0 +1,37 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Norway */
+
+:root {
+  --flag-height: 8;
+  --flag-width: 11;
+  --norway-red: #ef2b2d;
+  --norway-white: #ffffff;
+  --norway-blue: #00205b;
+}
+
+#norway {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background:
+    linear-gradient(90deg,
+      var(--norway-red) 0%,
+      var(--norway-red) 22%,
+      var(--norway-white) 22%,
+      var(--norway-white) 31%,
+      var(--norway-blue) 31%,
+      var(--norway-blue) 40%,
+      var(--norway-white) 40%,
+      var(--norway-white) 49%,
+      var(--norway-red) 49%,
+      var(--norway-red) 100%),
+    linear-gradient(180deg,
+      var(--norway-red) 0%,
+      var(--norway-red) 31%,
+      var(--norway-white) 31%,
+      var(--norway-white) 40%,
+      var(--norway-blue) 40%,
+      var(--norway-blue) 60%,
+      var(--norway-white) 60%,
+      var(--norway-white) 69%,
+      var(--norway-red) 69%,
+      var(--norway-red) 100%);
+}

@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Republic_of_the_Congo */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --congo-green: #009543;
+  --congo-yellow: #fcd116;
+  --congo-red: #dc241f;
+}
+
+#congo-republic {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    135deg,
+    var(--congo-green) 0%,
+    var(--congo-green) 33.333%,
+    var(--congo-yellow) 33.333%,
+    var(--congo-yellow) 66.666%,
+    var(--congo-red) 66.666%,
+    var(--congo-red) 100%
+  );
+}

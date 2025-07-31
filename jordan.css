@@ -1,0 +1,47 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Jordan */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --jordan-black: #000000;
+  --jordan-white: #ffffff;
+  --jordan-green: #007a3d;
+  --jordan-red: #ce1126;
+}
+
+#jordan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--jordan-black) 0%,
+    var(--jordan-black) 33.333%,
+    var(--jordan-white) 33.333%,
+    var(--jordan-white) 66.666%,
+    var(--jordan-green) 66.666%,
+    var(--jordan-green) 100%
+  );
+}
+
+#jordan::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  background: var(--jordan-red);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+#jordan::after {
+  content: "";
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  top: 50%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%23ffffff" points="15,0 18,9 27,9 20,15 23,24 15,18 7,24 10,15 3,9 12,9"/></svg>') no-repeat center/contain;
+}

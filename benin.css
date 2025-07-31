@@ -1,0 +1,29 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Benin */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --benin-green: #008751;
+  --benin-yellow: #fcd116;
+  --benin-red: #e8112d;
+}
+
+#benin {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background:
+    linear-gradient(90deg,
+      var(--benin-green) 0%,
+      var(--benin-green) 33.333%,
+      transparent 33.333%,
+      transparent 100%),
+    linear-gradient(180deg,
+      var(--benin-yellow) 0%,
+      var(--benin-yellow) 50%,
+      var(--benin-red) 50%,
+      var(--benin-red) 100%);
+  background-size: 100% 100%, 66.666% 100%;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+}

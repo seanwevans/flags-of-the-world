@@ -5,6 +5,7 @@ Use this file as a reference for which flags are completed.
 
 ## Completed
 * 🇯🇵 Japan
+* 🇳🇬 Nigeria
 * 🇺🇦 Ukraine
 * 🇺🇸 United States
 
@@ -133,7 +134,6 @@ Use this file as a reference for which flags are completed.
 * 🇳🇿 New Zealand
 * 🇳🇮 Nicaragua
 * 🇳🇪 Niger
-* 🇳🇬 Nigeria
 * 🇰🇵 North Korea
 * 🇲🇰 North Macedonia
 * 🇳🇴 Norway

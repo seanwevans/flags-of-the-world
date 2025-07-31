@@ -8,9 +8,9 @@ A [gallery of the completed flags](https://seanwevans.github.io/flags-of-the-wor
 
 # Guidelines
 
-* wikipedia is the default source for flag specifications
-* simpler representations favored over more comples
-* SVG is a last resort
+* wikipedia is the default source for flag specifications.
+* simpler representations favored over more complex.
+* SVG is a last resort.
   
 # UN Member States
 

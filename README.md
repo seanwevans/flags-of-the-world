@@ -1,11 +1,17 @@
 # Flags of the World — A CSS Collection
 
-Welcome to Flags of the World, a community-maintained showcase of national flags rendered entirely with just CSS.
-The goal is to collect correct, scalable, and self-contained stylesheets for every sovereign nation’s flag.
-The goal being: Drop a `<div>` (i.e. `<div id="usa" />`) on the page, add a single class, and you’re flying colors.
+Welcome to Flags of the World, a showcase of national flags rendered with just CSS.
+The goal is to collect correct, scalable, and self-contained stylesheets for each polity 
+that can be used simply with a single div (i.e. `<div id="usa" />`).
 
-Here is a [gallery of the completed flags](https://seanwevans.github.io/flags-of-the-world/)
+A [gallery of the completed flags](https://seanwevans.github.io/flags-of-the-world/)
 
+# Guidelines
+
+* wikipedia is the default source for flag specifications
+* simpler representations favored over more comples
+* SVG is a last resort
+  
 # UN Member States
 
 Below is a list of all **193** United Nations member countries

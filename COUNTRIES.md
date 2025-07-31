@@ -7,11 +7,11 @@ Use this file as a reference for which flags are completed.
 * 🇯🇵 Japan
 * 🇺🇦 Ukraine
 * 🇺🇸 United States
+* 🇩🇿 Algeria
 
 ## To do
 * 🇦🇫 Afghanistan
 * 🇦🇱 Albania
-* 🇩🇿 Algeria
 * 🇦🇩 Andorra
 * 🇦🇴 Angola
 * 🇦🇬 Antigua and Barbuda

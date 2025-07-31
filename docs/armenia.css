@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Armenia */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --armenia-red: #D90012;
+  --armenia-blue: #0033A0;
+  --armenia-orange: #F2A800;
+}
+
+#armenia {
+  position: absolute;
+  height: 720px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--armenia-red) 0%,
+    var(--armenia-red) 33.333%,
+    var(--armenia-blue) 33.333%,
+    var(--armenia-blue) 66.666%,
+    var(--armenia-orange) 66.666%,
+    var(--armenia-orange) 100%
+  );
+}

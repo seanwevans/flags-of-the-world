@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Poland */
+
+:root {
+  --flag-height: 5;
+  --flag-width: 8;
+  --poland-white: #ffffff;
+  --poland-red: #dc143c;
+}
+
+#poland {
+  position: absolute;
+  height: 720px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--poland-white) 0%,
+    var(--poland-white) 50%,
+    var(--poland-red) 50%,
+    var(--poland-red) 100%
+  );
+}

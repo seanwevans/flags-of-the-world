@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Ukraine */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --ukraine-blue: #0057b7;
+  --ukraine-yellow: #ffd700;
+}
+
+#ukraine {
+  position: absolute;
+  height: 720px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--ukraine-blue) 0%,
+    var(--ukraine-blue) 50%,
+    var(--ukraine-yellow) 50%,
+    var(--ukraine-yellow) 100%
+  );
+}

@@ -1,0 +1,71 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_United_States
+
+| ID  | Item                | Fraction | Decimal  | Common Denominator | % height | % width |
+|-----|---------------------|----------|----------|--------------------|----------|---------|
+| A   | flag height         | 1/1      | 1.0      | 3900/3900          | 100%     | 53%     |
+| B   | flag width          | 19/10    | 1.9      | 7410/3900          | 190%     | 100%    |
+| C   | canton height       | 7/13     | 0.53846  | 2100/3900          | 54%      | 28%     |
+| D   | canton width        | 19/25    | 0.76     | 2964/3900          | 76%      | 40%     |
+| E,F | star spacing height | 7/130    | 0.05385  |  210/3900          | 5.4%     | 2.8%    |
+| G,H | star spacing width  | 19/300   | 0.06333  |  247/3900          | 6.3%     | 3.3%    |
+| K   | star outer diameter | 4/65     | 0.061538 |  240/3900          | 6.2%     | 3.3%    |
+| L   | stripe height       | 1/13     | 0.076923 |  300/3900          | 7.7%     | 4.1%    |
+*/
+
+:root {
+  --flag-height: 1;
+  --flag-width: 1.9;
+  --canton-blue: #3c3b6e;
+  --canton-height: 53.846%;
+  --canton-width: 40%;
+  --star-spacing-height: 5.385%;
+  --star-spacing-width: 6.333%;
+  --star-outer-diameter: 6.1538%;
+  --stripe-red: #b22234;
+  --stripe-white: #ffffff;
+  --stripe-height: 7.6923%;
+}
+
+/* stripes */
+#usa {
+  position: absolute;
+  height: 720px; /* A */
+  aspect-ratio: var(--flag-width) / var(--flag-height); /* B */
+  background: repeating-linear-gradient(
+    0deg,
+    var(--stripe-red) 0,
+    var(--stripe-red) var(--stripe-height),
+    var(--stripe-white) var(--stripe-height),
+    var(--stripe-white) calc(2 * var(--stripe-height))
+  );
+}
+
+/* canton */
+#usa:before {
+  content: "";
+  position: absolute;
+  background: var(--canton-blue);
+  height: var(--canton-height);
+  width: var(--canton-width);
+}
+
+/* stars */
+#usa:after {
+  content: "";
+  position: absolute;
+  background-size: var(--star-outer-diameter); /* K */
+  height: calc(
+    var(--canton-height) - (var(--star-spacing-height) / var(--flag-height))
+  ); /* C-E */
+  width: calc(
+    var(--canton-width) - (var(--star-spacing-width) / var(--flag-width))
+  ); /* D-G */
+  top: calc(1 / 2 * var(--star-spacing-height) / var(--flag-height));
+  left: calc(1 / 2 * var(--star-spacing-width) / var(--flag-width));
+  background-size: calc(100% / 5.5) calc(100% / 4.5);
+  background-image: url('data:image/svg+xml, \
+    <svg viewBox="0 0 38 32" xmlns="http://www.w3.org/2000/svg"> \
+      <path fill="rgb(255,255,255)" d="M16,6.204l-5.528-0.803L8,0.392L5.528,5.401L0,6.204l4,3.899l-0.944,5.505L8,13.009l4.944,2.599L12,10.103L16,6.204z"/> \
+      <path fill="rgb(255,255,255)" d="M16,6.204l-5.528-0.803L8,0.392L5.528,5.401L0,6.204l4,3.899l-0.944,5.505L8,13.009l4.944,2.599L12,10.103L16,6.204z" transform="translate(19, 16)" /> \
+    </svg>');
+}

@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Nigeria */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --nigeria-green: #008751;
+  --nigeria-white: #ffffff;
+}
+
+#nigeria {
+  position: absolute;
+  height: 720px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--nigeria-green) 0%,
+    var(--nigeria-green) 33.333%,
+    var(--nigeria-white) 33.333%,
+    var(--nigeria-white) 66.666%,
+    var(--nigeria-green) 66.666%,
+    var(--nigeria-green) 100%
+  );
+}

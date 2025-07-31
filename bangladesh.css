@@ -5,6 +5,7 @@
   --flag-width: 5;
   --bangladesh-green: #006a4e;
   --bangladesh-red: #f42a41;
+  --bangladesh-disc-size: 40%;
 }
 
 #bangladesh {
@@ -17,8 +18,8 @@
 #bangladesh::before {
   content: "";
   position: absolute;
-  width: 40%;
-  height: 40%;
+  width: calc(var(--bangladesh-disc-size) * var(--flag-height) / var(--flag-width));
+  height: var(--bangladesh-disc-size);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

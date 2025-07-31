@@ -1,11 +1,14 @@
 /* reference: https://en.wikipedia.org/wiki/Flag_of_Japan */
 
-#japan {
+:root {
   --flag-height: 2;
   --flag-width: 3;
   --japan-white: #ffffff;
   --japan-red: #bc002d;
   --japan-disk-diameter: 60%;
+}
+
+#japan {
   position: relative;
   height: 180px;
   aspect-ratio: var(--flag-width) / var(--flag-height);

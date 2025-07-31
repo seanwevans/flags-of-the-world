@@ -1,0 +1,33 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Algeria */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --algeria-green: #006233;
+  --algeria-white: #ffffff;
+  --algeria-red: #d21034;
+}
+
+#algeria {
+  position: absolute;
+  height: 720px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--algeria-green) 0%,
+    var(--algeria-green) 50%,
+    var(--algeria-white) 50%,
+    var(--algeria-white) 100%
+  );
+}
+
+#algeria::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cGF0aCBmaWxsPSIlMjNkMjEwMzQiIGQ9Ik01NzkuOTAzODExIDIyNWExNTAgMTUwIDAgMSAwIDAgMTUwIDEyMCAxMjAgMCAxIDEgMC0xNTBNNTg1LjY3NjI3NSAzMDAgNDUwIDI1NS45MTYxMDYgNTMzLjg1MjU0OSAzNzEuMzI5MjM5di0xNDIuNjU4Mjc3TDQ1MCAzNDQuMDgzODk0eiIvPjwvc3ZnPg==') no-repeat center/contain;
+}

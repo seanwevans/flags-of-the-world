@@ -4,6 +4,7 @@ Below is an alphabetical list of all **193** United Nations member countries, ea
 Use this file as a reference for which flags are completed.
 
 ## Completed
+* 🇦🇲 Armenia
 * 🇯🇵 Japan
 * 🇵🇱 Poland
 * 🇳🇬 Nigeria
@@ -19,7 +20,6 @@ Use this file as a reference for which flags are completed.
 * 🇦🇴 Angola
 * 🇦🇬 Antigua and Barbuda
 * 🇦🇷 Argentina
-* 🇦🇲 Armenia
 * 🇦🇺 Australia
 * 🇦🇹 Austria
 * 🇦🇿 Azerbaijan

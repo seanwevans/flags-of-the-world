@@ -1,0 +1,48 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Togo */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --togo-green: #006a4e;
+  --togo-yellow: #fcd116;
+  --togo-red: #d7141a;
+  --togo-white: #ffffff;
+}
+
+#togo {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: repeating-linear-gradient(
+    180deg,
+    var(--togo-green) 0%,
+    var(--togo-green) 20%,
+    var(--togo-yellow) 20%,
+    var(--togo-yellow) 40%
+  );
+}
+
+#togo::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 0;
+  left: 0;
+  background: var(--togo-red);
+}
+
+#togo::after {
+  content: "";
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11"/></svg>');
+}
+

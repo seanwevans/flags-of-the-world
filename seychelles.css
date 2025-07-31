@@ -1,0 +1,30 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Seychelles */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --sey-blue: #003f87;
+  --sey-yellow: #fcd116;
+  --sey-red: #d62828;
+  --sey-white: #ffffff;
+  --sey-green: #007a3d;
+}
+
+#seychelles {
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    45deg,
+    var(--sey-blue) 0%,
+    var(--sey-blue) 20%,
+    var(--sey-yellow) 20%,
+    var(--sey-yellow) 40%,
+    var(--sey-red) 40%,
+    var(--sey-red) 60%,
+    var(--sey-white) 60%,
+    var(--sey-white) 80%,
+    var(--sey-green) 80%,
+    var(--sey-green) 100%
+  );
+}
+

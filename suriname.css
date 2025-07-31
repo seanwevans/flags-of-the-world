@@ -1,0 +1,44 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Suriname */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --suriname-green: #377e3f;
+  --suriname-white: #ffffff;
+  --suriname-red: #b40a2d;
+  --suriname-yellow: #f9e814;
+}
+
+#suriname {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--suriname-green) 0%,
+    var(--suriname-green) 25%,
+    var(--suriname-white) 25%,
+    var(--suriname-white) 33%,
+    var(--suriname-red) 33%,
+    var(--suriname-red) 67%,
+    var(--suriname-white) 67%,
+    var(--suriname-white) 75%,
+    var(--suriname-green) 75%,
+    var(--suriname-green) 100%
+  );
+}
+
+#suriname::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%23f9e814" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11"/></svg>');
+}
+

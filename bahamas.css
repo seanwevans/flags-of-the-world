@@ -1,0 +1,35 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Bahamas */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --bahamas-aqua: #00a3e0;
+  --bahamas-gold: #ffc72c;
+  --bahamas-black: #000000;
+}
+
+#bahamas {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--bahamas-aqua) 0%,
+    var(--bahamas-aqua) 33.333%,
+    var(--bahamas-gold) 33.333%,
+    var(--bahamas-gold) 66.666%,
+    var(--bahamas-aqua) 66.666%,
+    var(--bahamas-aqua) 100%
+  );
+}
+
+#bahamas::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(60deg, var(--bahamas-black) 50%, transparent 50%);
+}
+

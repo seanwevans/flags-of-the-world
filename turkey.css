@@ -1,0 +1,27 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Turkey */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --turkey-red: #e30a17;
+  --turkey-white: #ffffff;
+}
+
+#turkey {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--turkey-red);
+}
+
+#turkey::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffffff" d="M50 25a20 20 0 0 0 0 50 35 35 0 1 1 0-50z"/><polygon fill="%23ffffff" points="60,35 64,46 76,46 66,53 70,65 60,58 50,65 54,53 44,46 56,46"/></svg>') no-repeat center/contain;
+}
+

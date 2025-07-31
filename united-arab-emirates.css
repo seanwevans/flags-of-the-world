@@ -1,0 +1,36 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_United_Arab_Emirates */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --uae-red: #bf0a30;
+  --uae-green: #009639;
+  --uae-white: #ffffff;
+  --uae-black: #000000;
+}
+
+#united-arab-emirates {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--uae-green) 0%,
+    var(--uae-green) 33.333%,
+    var(--uae-white) 33.333%,
+    var(--uae-white) 66.666%,
+    var(--uae-black) 66.666%,
+    var(--uae-black) 100%
+  );
+}
+
+#united-arab-emirates::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background: var(--uae-red);
+}
+

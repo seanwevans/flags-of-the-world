@@ -1,0 +1,43 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Panama */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --panama-red: #d21034;
+  --panama-blue: #0058a8;
+  --panama-white: #ffffff;
+}
+
+#panama {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background:
+    linear-gradient(90deg, var(--panama-white) 0%, var(--panama-white) 50%, var(--panama-red) 50%, var(--panama-red) 100%),
+    linear-gradient(180deg, var(--panama-blue) 0%, var(--panama-blue) 50%, var(--panama-white) 50%, var(--panama-white) 100%);
+  background-size: 100% 50%, 100% 100%;
+}
+
+#panama::before,
+#panama::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#panama::before {
+  top: 25%;
+  left: 25%;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%230058a8" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11"/></svg>');
+}
+
+#panama::after {
+  bottom: 25%;
+  right: 25%;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><polygon fill="%23d21034" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11"/></svg>');
+}
+

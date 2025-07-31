@@ -1,0 +1,50 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Uzbekistan */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --uzb-blue: #1eb5fa;
+  --uzb-white: #ffffff;
+  --uzb-green: #1eb53a;
+  --uzb-red: #da291c;
+}
+
+#uzbekistan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background:
+    linear-gradient(180deg,
+      var(--uzb-blue) 0%,
+      var(--uzb-blue) 33%,
+      var(--uzb-red) 33%,
+      var(--uzb-red) 36%,
+      var(--uzb-white) 36%,
+      var(--uzb-white) 64%,
+      var(--uzb-red) 64%,
+      var(--uzb-red) 67%,
+      var(--uzb-green) 67%,
+      var(--uzb-green) 100%
+    );
+}
+
+#uzbekistan::before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 10%;
+  left: 10%;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 50"><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(10,10) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(22,10) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(34,10) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(4,22) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(16,22) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(28,22) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(40,22) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(-2,34) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(10,34) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(22,34) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(34,34) scale(0.6)"/><polygon fill="%23ffffff" points="15,0 19,11 30,11 21,17 24,28 15,22 6,28 9,17 0,11 11,11" transform="translate(46,34) scale(0.6)"/></svg>') no-repeat center/contain;
+}
+
+#uzbekistan::after {
+  content: "";
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  top: 22%;
+  left: 25%;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffffff" d="M60 50a20 20 0 1 1-20-20 30 30 0 1 0 20 20z"/></svg>') no-repeat center/contain;
+}
+

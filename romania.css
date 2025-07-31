@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Romania */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --romania-blue: #002b7f;
+  --romania-yellow: #fcd116;
+  --romania-red: #ce1126;
+}
+
+#romania {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--romania-blue) 0%,
+    var(--romania-blue) 33.333%,
+    var(--romania-yellow) 33.333%,
+    var(--romania-yellow) 66.666%,
+    var(--romania-red) 66.666%,
+    var(--romania-red) 100%
+  );
+}

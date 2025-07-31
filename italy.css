@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Italy */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --italy-green: #009246;
+  --italy-white: #ffffff;
+  --italy-red: #ce2b37;
+}
+
+#italy {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--italy-green) 0%,
+    var(--italy-green) 33.333%,
+    var(--italy-white) 33.333%,
+    var(--italy-white) 66.666%,
+    var(--italy-red) 66.666%,
+    var(--italy-red) 100%
+  );
+}

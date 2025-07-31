@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Luxembourg */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --luxembourg-red: #ef3340;
+  --luxembourg-white: #ffffff;
+  --luxembourg-blue: #00a1de;
+}
+
+#luxembourg {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--luxembourg-red) 0%,
+    var(--luxembourg-red) 33.333%,
+    var(--luxembourg-white) 33.333%,
+    var(--luxembourg-white) 66.666%,
+    var(--luxembourg-blue) 66.666%,
+    var(--luxembourg-blue) 100%
+  );
+}

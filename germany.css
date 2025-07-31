@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Germany */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --germany-black: #000000;
+  --germany-red: #dd0000;
+  --germany-gold: #ffce00;
+}
+
+#germany {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--germany-black) 0%,
+    var(--germany-black) 33.333%,
+    var(--germany-red) 33.333%,
+    var(--germany-red) 66.666%,
+    var(--germany-gold) 66.666%,
+    var(--germany-gold) 100%
+  );
+}

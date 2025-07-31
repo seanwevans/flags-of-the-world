@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Ireland */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --ireland-green: #169b62;
+  --ireland-white: #ffffff;
+  --ireland-orange: #ff883e;
+}
+
+#ireland {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--ireland-green) 0%,
+    var(--ireland-green) 33.333%,
+    var(--ireland-white) 33.333%,
+    var(--ireland-white) 66.666%,
+    var(--ireland-orange) 66.666%,
+    var(--ireland-orange) 100%
+  );
+}

@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Belgium */
+
+:root {
+  --flag-height: 13;
+  --flag-width: 15;
+  --belgium-black: #000000;
+  --belgium-yellow: #ffd90c;
+  --belgium-red: #ef3340;
+}
+
+#belgium {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--belgium-black) 0%,
+    var(--belgium-black) 33.333%,
+    var(--belgium-yellow) 33.333%,
+    var(--belgium-yellow) 66.666%,
+    var(--belgium-red) 66.666%,
+    var(--belgium-red) 100%
+  );
+}

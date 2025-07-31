@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Indonesia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --indonesia-red: #c8102e;
+  --indonesia-white: #ffffff;
+}
+
+#indonesia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--indonesia-red) 0%,
+    var(--indonesia-red) 50%,
+    var(--indonesia-white) 50%,
+    var(--indonesia-white) 100%
+  );
+}

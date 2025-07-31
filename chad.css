@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Chad */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --chad-blue: #002664;
+  --chad-yellow: #fecb00;
+  --chad-red: #c60c30;
+}
+
+#chad {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--chad-blue) 0%,
+    var(--chad-blue) 33.333%,
+    var(--chad-yellow) 33.333%,
+    var(--chad-yellow) 66.666%,
+    var(--chad-red) 66.666%,
+    var(--chad-red) 100%
+  );
+}

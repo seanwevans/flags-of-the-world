@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Netherlands */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --netherlands-red: #ae1c28;
+  --netherlands-white: #ffffff;
+  --netherlands-blue: #21468b;
+}
+
+#netherlands {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--netherlands-red) 0%,
+    var(--netherlands-red) 33.333%,
+    var(--netherlands-white) 33.333%,
+    var(--netherlands-white) 66.666%,
+    var(--netherlands-blue) 66.666%,
+    var(--netherlands-blue) 100%
+  );
+}

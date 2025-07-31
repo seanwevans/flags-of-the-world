@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Estonia */
+
+:root {
+  --flag-height: 7;
+  --flag-width: 11;
+  --estonia-blue: #0072ce;
+  --estonia-black: #000000;
+  --estonia-white: #ffffff;
+}
+
+#estonia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--estonia-blue) 0%,
+    var(--estonia-blue) 33.333%,
+    var(--estonia-black) 33.333%,
+    var(--estonia-black) 66.666%,
+    var(--estonia-white) 66.666%,
+    var(--estonia-white) 100%
+  );
+}

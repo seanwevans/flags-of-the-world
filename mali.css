@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Mali */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --mali-green: #14b53a;
+  --mali-yellow: #fcd116;
+  --mali-red: #ce1126;
+}
+
+#mali {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--mali-green) 0%,
+    var(--mali-green) 33.333%,
+    var(--mali-yellow) 33.333%,
+    var(--mali-yellow) 66.666%,
+    var(--mali-red) 66.666%,
+    var(--mali-red) 100%
+  );
+}

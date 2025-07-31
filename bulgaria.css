@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Bulgaria */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --bulgaria-white: #ffffff;
+  --bulgaria-green: #00966e;
+  --bulgaria-red: #d62612;
+}
+
+#bulgaria {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--bulgaria-white) 0%,
+    var(--bulgaria-white) 33.333%,
+    var(--bulgaria-green) 33.333%,
+    var(--bulgaria-green) 66.666%,
+    var(--bulgaria-red) 66.666%,
+    var(--bulgaria-red) 100%
+  );
+}

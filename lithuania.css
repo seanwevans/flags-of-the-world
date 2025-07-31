@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Lithuania */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --lithuania-yellow: #fdb913;
+  --lithuania-green: #006a44;
+  --lithuania-red: #c1272d;
+}
+
+#lithuania {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--lithuania-yellow) 0%,
+    var(--lithuania-yellow) 33.333%,
+    var(--lithuania-green) 33.333%,
+    var(--lithuania-green) 66.666%,
+    var(--lithuania-red) 66.666%,
+    var(--lithuania-red) 100%
+  );
+}

@@ -6,7 +6,7 @@ The goal being: Drop a `<div>` (i.e. `<div id="usa" />`) on the page, add a sing
 
 A live gallery of the completed flags is automatically published to GitHub Pages from the `docs/` folder via GitHub Actions.
 
-# UN Member States (Flag Emoji Reference)
+# UN Member States
 
 Below is a list of all **193** United Nations member countries
 

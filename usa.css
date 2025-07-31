@@ -28,8 +28,8 @@
 
 /* stripes */
 #usa {
-  position: absolute;
-  height: 720px; /* A */
+  position: relative;
+  height: 180px; /* A */
   aspect-ratio: var(--flag-width) / var(--flag-height); /* B */
   background: repeating-linear-gradient(
     0deg,

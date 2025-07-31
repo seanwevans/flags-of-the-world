@@ -9,8 +9,8 @@
 }
 
 #japan {
-  position: absolute;
-  height: 720px;
+  position: relative;
+  height: 180px;
   aspect-ratio: var(--flag-width) / var(--flag-height);
   background: var(--japan-white);
 }

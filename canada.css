@@ -1,0 +1,50 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Canada */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --canada-red: #ff0000;
+  --canada-white: #ffffff;
+}
+
+#canada {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--canada-red) 0%,
+    var(--canada-red) 25%,
+    var(--canada-white) 25%,
+    var(--canada-white) 75%,
+    var(--canada-red) 75%,
+    var(--canada-red) 100%
+  );
+}
+
+#canada::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: var(--canada-red);
+  clip-path: polygon(
+    50% 0%,
+    61% 19%,
+    75% 19%,
+    69% 31%,
+    81% 44%,
+    63% 44%,
+    64% 63%,
+    50% 54%,
+    36% 63%,
+    37% 44%,
+    19% 44%,
+    31% 31%,
+    25% 19%,
+    39% 19%
+  );
+}

@@ -1,0 +1,22 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Spain */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --spain-red: #c60b1e;
+  --spain-yellow: #ffc400;
+}
+
+#spain {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    var(--spain-red) 0%,
+    var(--spain-red) 25%,
+    var(--spain-yellow) 25%,
+    var(--spain-yellow) 75%,
+    var(--spain-red) 75%,
+    var(--spain-red) 100%
+  );
+}

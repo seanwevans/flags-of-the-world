@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Portugal */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --portugal-green: #006600;
+  --portugal-red: #ff0000;
+}
+
+#portugal {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--portugal-green) 0%,
+    var(--portugal-green) 40%,
+    var(--portugal-red) 40%,
+    var(--portugal-red) 100%
+  );
+}

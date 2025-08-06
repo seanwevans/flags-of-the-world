@@ -1,0 +1,50 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Greece */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --greece-blue: #0d5eaf;
+  --greece-white: #ffffff;
+}
+
+#greece {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: repeating-linear-gradient(
+    0deg,
+    var(--greece-blue) 0%,
+    var(--greece-blue) calc(100% / 9),
+    var(--greece-white) calc(100% / 9),
+    var(--greece-white) calc(2 * 100% / 9)
+  );
+}
+
+#greece::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 37.037%;
+  height: 55.555%;
+  background:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      transparent 40%,
+      var(--greece-white) 40%,
+      var(--greece-white) 60%,
+      transparent 60%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 40%,
+      var(--greece-white) 40%,
+      var(--greece-white) 60%,
+      transparent 60%,
+      transparent 100%
+    ),
+    var(--greece-blue);
+}

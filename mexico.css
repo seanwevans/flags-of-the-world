@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Mexico */
+
+:root {
+  --flag-height: 4;
+  --flag-width: 7;
+  --mexico-green: #006847;
+  --mexico-white: #ffffff;
+  --mexico-red: #ce1126;
+}
+
+#mexico {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--mexico-green) 0%,
+    var(--mexico-green) 33.333%,
+    var(--mexico-white) 33.333%,
+    var(--mexico-white) 66.666%,
+    var(--mexico-red) 66.666%,
+    var(--mexico-red) 100%
+  );
+}

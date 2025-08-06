@@ -1,0 +1,35 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Argentina */
+
+:root {
+  --flag-height: 9;
+  --flag-width: 14;
+  --argentina-blue: #74acdf;
+  --argentina-white: #ffffff;
+  --argentina-sun: #f6b40e;
+}
+
+#argentina {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    var(--argentina-blue) 0%,
+    var(--argentina-blue) 33.333%,
+    var(--argentina-white) 33.333%,
+    var(--argentina-white) 66.666%,
+    var(--argentina-blue) 66.666%,
+    var(--argentina-blue) 100%
+  );
+}
+
+#argentina::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: var(--argentina-sun);
+  border-radius: 50%;
+}

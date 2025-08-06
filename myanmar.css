@@ -1,0 +1,47 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Myanmar */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --myanmar-yellow: #fecb00;
+  --myanmar-green: #34b233;
+  --myanmar-red: #ea2839;
+  --myanmar-white: #ffffff;
+}
+
+#myanmar {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    var(--myanmar-yellow) 0%,
+    var(--myanmar-yellow) 33.333%,
+    var(--myanmar-green) 33.333%,
+    var(--myanmar-green) 66.666%,
+    var(--myanmar-red) 66.666%,
+    var(--myanmar-red) 100%
+  );
+}
+
+#myanmar::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: var(--myanmar-white);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}

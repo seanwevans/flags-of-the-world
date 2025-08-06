@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Peru */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --peru-red: #d91023;
+  --peru-white: #ffffff;
+}
+
+#peru {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--peru-red) 0%,
+    var(--peru-red) 33.333%,
+    var(--peru-white) 33.333%,
+    var(--peru-white) 66.666%,
+    var(--peru-red) 66.666%,
+    var(--peru-red) 100%
+  );
+}

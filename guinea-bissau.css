@@ -1,0 +1,39 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Guinea-Bissau */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --gb-red: #ce1126;
+  --gb-yellow: #fcd116;
+  --gb-green: #009e49;
+}
+
+#guinea-bissau {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background:
+    linear-gradient(90deg,
+      var(--gb-red) 0%,
+      var(--gb-red) 33.333%,
+      transparent 33.333%,
+      transparent 100%
+    ),
+    linear-gradient(180deg,
+      var(--gb-yellow) 0%,
+      var(--gb-yellow) 50%,
+      var(--gb-green) 50%,
+      var(--gb-green) 100%
+    );
+}
+
+#guinea-bissau::after {
+  content: "";
+  position: absolute;
+  width: 13%;
+  height: 26%;
+  top: 50%;
+  left: 16.666%;
+  transform: translate(-50%, -50%);
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon fill="%23000000" points="50,10 61,39 92,39 66,59 76,90 50,70 24,90 34,59 8,39 39,39"/></svg>') no-repeat center/contain;
+}

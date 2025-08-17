@@ -1,0 +1,28 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Costa_Rica */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --costa-rica-blue: #002b7f;
+  --costa-rica-white: #ffffff;
+  --costa-rica-red: #ce1126;
+}
+
+#costa-rica {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--costa-rica-blue) 0%,
+    var(--costa-rica-blue) 16.666%,
+    var(--costa-rica-white) 16.666%,
+    var(--costa-rica-white) 33.333%,
+    var(--costa-rica-red) 33.333%,
+    var(--costa-rica-red) 66.666%,
+    var(--costa-rica-white) 66.666%,
+    var(--costa-rica-white) 83.333%,
+    var(--costa-rica-blue) 83.333%,
+    var(--costa-rica-blue) 100%
+  );
+}

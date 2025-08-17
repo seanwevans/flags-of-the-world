@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Moldova */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --moldova-blue: #0032a0;
+  --moldova-yellow: #ffd200;
+  --moldova-red: #ce1126;
+}
+
+#moldova {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--moldova-blue) 0%,
+    var(--moldova-blue) 33.333%,
+    var(--moldova-yellow) 33.333%,
+    var(--moldova-yellow) 66.666%,
+    var(--moldova-red) 66.666%,
+    var(--moldova-red) 100%
+  );
+}

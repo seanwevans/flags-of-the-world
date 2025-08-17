@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Croatia */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --croatia-red: #ff0000;
+  --croatia-white: #ffffff;
+  --croatia-blue: #171796;
+}
+
+#croatia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--croatia-red) 0%,
+    var(--croatia-red) 33.333%,
+    var(--croatia-white) 33.333%,
+    var(--croatia-white) 66.666%,
+    var(--croatia-blue) 66.666%,
+    var(--croatia-blue) 100%
+  );
+}

@@ -2,7 +2,7 @@
 
 A showcase of national flags rendered with pure CSS.
 
-Currently, **100** flags are included.
+Currently, **110** flags are included.
 
 ## Completed
 
@@ -27,12 +27,16 @@ Currently, **100** flags are included.
 * [Colombia](https://en.wikipedia.org/wiki/Flag_of_Colombia)
 * [Democratic Republic of the Congo](https://en.wikipedia.org/wiki/Flag_of_Democratic_Republic_of_the_Congo)
 * [Republic of the Congo](https://en.wikipedia.org/wiki/Flag_of_Republic_of_the_Congo)
+* [Costa Rica](https://en.wikipedia.org/wiki/Flag_of_Costa_Rica)
+* [Croatia](https://en.wikipedia.org/wiki/Flag_of_Croatia)
 * [Cuba](https://en.wikipedia.org/wiki/Flag_of_Cuba)
 * [Czech Republic](https://en.wikipedia.org/wiki/Flag_of_Czech_Republic)
 * [Denmark](https://en.wikipedia.org/wiki/Flag_of_Denmark)
 * [Djibouti](https://en.wikipedia.org/wiki/Flag_of_Djibouti)
 * [Egypt](https://en.wikipedia.org/wiki/Flag_of_Egypt)
+* [El Salvador](https://en.wikipedia.org/wiki/Flag_of_El_Salvador)
 * [England](https://en.wikipedia.org/wiki/Flag_of_England)
+* [Equatorial Guinea](https://en.wikipedia.org/wiki/Flag_of_Equatorial_Guinea)
 * [Estonia](https://en.wikipedia.org/wiki/Flag_of_Estonia)
 * [Finland](https://en.wikipedia.org/wiki/Flag_of_Finland)
 * [France](https://en.wikipedia.org/wiki/Flag_of_France)
@@ -41,6 +45,8 @@ Currently, **100** flags are included.
 * [Germany](https://en.wikipedia.org/wiki/Flag_of_Germany)
 * [Ghana](https://en.wikipedia.org/wiki/Flag_of_Ghana)
 * [Greece](https://en.wikipedia.org/wiki/Flag_of_Greece)
+* [Guatemala](https://en.wikipedia.org/wiki/Flag_of_Guatemala)
+* [Guinea Bissau](https://en.wikipedia.org/wiki/Flag_of_Guinea_Bissau)
 * [Guinea](https://en.wikipedia.org/wiki/Flag_of_Guinea)
 * [Honduras](https://en.wikipedia.org/wiki/Flag_of_Honduras)
 * [Hungary](https://en.wikipedia.org/wiki/Flag_of_Hungary)
@@ -56,6 +62,7 @@ Currently, **100** flags are included.
 * [Kuwait](https://en.wikipedia.org/wiki/Flag_of_Kuwait)
 * [Laos](https://en.wikipedia.org/wiki/Flag_of_Laos)
 * [Latvia](https://en.wikipedia.org/wiki/Flag_of_Latvia)
+* [Lesotho](https://en.wikipedia.org/wiki/Flag_of_Lesotho)
 * [Liberia](https://en.wikipedia.org/wiki/Flag_of_Liberia)
 * [Libya](https://en.wikipedia.org/wiki/Flag_of_Libya)
 * [Lithuania](https://en.wikipedia.org/wiki/Flag_of_Lithuania)
@@ -64,17 +71,20 @@ Currently, **100** flags are included.
 * [Mali](https://en.wikipedia.org/wiki/Flag_of_Mali)
 * [Mauritius](https://en.wikipedia.org/wiki/Flag_of_Mauritius)
 * [Mexico](https://en.wikipedia.org/wiki/Flag_of_Mexico)
+* [Moldova](https://en.wikipedia.org/wiki/Flag_of_Moldova)
 * [Monaco](https://en.wikipedia.org/wiki/Flag_of_Monaco)
 * [Morocco](https://en.wikipedia.org/wiki/Flag_of_Morocco)
 * [Myanmar](https://en.wikipedia.org/wiki/Flag_of_Myanmar)
 * [Nauru](https://en.wikipedia.org/wiki/Flag_of_Nauru)
 * [Netherlands](https://en.wikipedia.org/wiki/Flag_of_Netherlands)
+* [Nicaragua](https://en.wikipedia.org/wiki/Flag_of_Nicaragua)
 * [Niger](https://en.wikipedia.org/wiki/Flag_of_Niger)
 * [Nigeria](https://en.wikipedia.org/wiki/Flag_of_Nigeria)
 * [Norway](https://en.wikipedia.org/wiki/Flag_of_Norway)
 * [Pakistan](https://en.wikipedia.org/wiki/Flag_of_Pakistan)
 * [Palau](https://en.wikipedia.org/wiki/Flag_of_Palau)
 * [Panama](https://en.wikipedia.org/wiki/Flag_of_Panama)
+* [Paraguay](https://en.wikipedia.org/wiki/Flag_of_Paraguay)
 * [Peru](https://en.wikipedia.org/wiki/Flag_of_Peru)
 * [Poland](https://en.wikipedia.org/wiki/Flag_of_Poland)
 * [Portugal](https://en.wikipedia.org/wiki/Flag_of_Portugal)

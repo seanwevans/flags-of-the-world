@@ -1,0 +1,23 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Guatemala */
+
+:root {
+  --flag-height: 5;
+  --flag-width: 8;
+  --guatemala-blue: #4997d0;
+  --guatemala-white: #ffffff;
+}
+
+#guatemala {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--guatemala-blue) 0%,
+    var(--guatemala-blue) 33.333%,
+    var(--guatemala-white) 33.333%,
+    var(--guatemala-white) 66.666%,
+    var(--guatemala-blue) 66.666%,
+    var(--guatemala-blue) 100%
+  );
+}

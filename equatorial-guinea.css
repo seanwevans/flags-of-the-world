@@ -1,0 +1,34 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Equatorial_Guinea */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --eqg-green: #009e60;
+  --eqg-white: #ffffff;
+  --eqg-red: #d91023;
+  --eqg-blue: #3e5eb9;
+}
+
+#equatorial-guinea {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--eqg-green) 0%,
+    var(--eqg-green) 33.333%,
+    var(--eqg-white) 33.333%,
+    var(--eqg-white) 66.666%,
+    var(--eqg-red) 66.666%,
+    var(--eqg-red) 100%
+  );
+}
+
+#equatorial-guinea::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 33.333%;
+  background: var(--eqg-blue);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}

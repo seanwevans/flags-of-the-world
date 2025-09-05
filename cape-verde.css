@@ -1,0 +1,30 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Cape Verde */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --cape_verde-color1: #003893;
+  --cape_verde-color2: #FFFFFF;
+  --cape_verde-color3: #CF2027;
+  --cape_verde-color4: #FFFFFF;
+  --cape_verde-color5: #003893;
+}
+
+#cape-verde {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--cape_verde-color1) 0.000%,
+    var(--cape_verde-color1) 20.000%,
+    var(--cape_verde-color2) 20.000%,
+    var(--cape_verde-color2) 40.000%,
+    var(--cape_verde-color3) 40.000%,
+    var(--cape_verde-color3) 60.000%,
+    var(--cape_verde-color4) 60.000%,
+    var(--cape_verde-color4) 80.000%,
+    var(--cape_verde-color5) 80.000%,
+    var(--cape_verde-color5) 100.000%
+  );
+}

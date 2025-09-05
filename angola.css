@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Angola */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --angola-color1: #CC092F;
+  --angola-color2: #000000;
+}
+
+#angola {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--angola-color1) 0.000%,
+    var(--angola-color1) 50.000%,
+    var(--angola-color2) 50.000%,
+    var(--angola-color2) 100.000%
+  );
+}

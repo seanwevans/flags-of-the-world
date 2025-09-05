@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Slovenia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --slovenia-color1: #FFFFFF;
+  --slovenia-color2: #003DA5;
+  --slovenia-color3: #D50000;
+}
+
+#slovenia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--slovenia-color1) 0.000%,
+    var(--slovenia-color1) 33.333%,
+    var(--slovenia-color2) 33.333%,
+    var(--slovenia-color2) 66.667%,
+    var(--slovenia-color3) 66.667%,
+    var(--slovenia-color3) 100.000%
+  );
+}

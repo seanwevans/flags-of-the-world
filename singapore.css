@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Singapore */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --singapore-color1: #EF3340;
+  --singapore-color2: #FFFFFF;
+}
+
+#singapore {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--singapore-color1) 0.000%,
+    var(--singapore-color1) 50.000%,
+    var(--singapore-color2) 50.000%,
+    var(--singapore-color2) 100.000%
+  );
+}

@@ -1,0 +1,25 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Taiwan */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --taiwan-red: #FE0000;
+  --taiwan-blue: #000095;
+}
+
+#taiwan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--taiwan-red);
+}
+
+#taiwan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 50%;
+  background: var(--taiwan-blue);
+}

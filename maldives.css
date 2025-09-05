@@ -1,0 +1,25 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Maldives */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --maldives-red: #D21034;
+  --maldives-green: #007E3A;
+}
+
+#maldives {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--maldives-red);
+}
+
+#maldives::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 60%;
+  height: 70%;
+  background: var(--maldives-green);
+}

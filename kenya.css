@@ -1,0 +1,30 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Kenya */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --kenya-color1: #000000;
+  --kenya-color2: #FFFFFF;
+  --kenya-color3: #BB0000;
+  --kenya-color4: #FFFFFF;
+  --kenya-color5: #006600;
+}
+
+#kenya {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--kenya-color1) 0.000%,
+    var(--kenya-color1) 20.000%,
+    var(--kenya-color2) 20.000%,
+    var(--kenya-color2) 40.000%,
+    var(--kenya-color3) 40.000%,
+    var(--kenya-color3) 60.000%,
+    var(--kenya-color4) 60.000%,
+    var(--kenya-color4) 80.000%,
+    var(--kenya-color5) 80.000%,
+    var(--kenya-color5) 100.000%
+  );
+}

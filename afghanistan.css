@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Afghanistan */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --afghanistan-color1: #000000;
+  --afghanistan-color2: #D00000;
+  --afghanistan-color3: #007A3D;
+}
+
+#afghanistan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--afghanistan-color1) 0.000%,
+    var(--afghanistan-color1) 33.333%,
+    var(--afghanistan-color2) 33.333%,
+    var(--afghanistan-color2) 66.667%,
+    var(--afghanistan-color3) 66.667%,
+    var(--afghanistan-color3) 100.000%
+  );
+}

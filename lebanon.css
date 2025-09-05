@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Lebanon */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --lebanon-color1: #D20000;
+  --lebanon-color2: #FFFFFF;
+  --lebanon-color3: #D20000;
+}
+
+#lebanon {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--lebanon-color1) 0.000%,
+    var(--lebanon-color1) 33.333%,
+    var(--lebanon-color2) 33.333%,
+    var(--lebanon-color2) 66.667%,
+    var(--lebanon-color3) 66.667%,
+    var(--lebanon-color3) 100.000%
+  );
+}

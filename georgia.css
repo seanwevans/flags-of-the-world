@@ -1,0 +1,36 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Georgia_(country) */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --georgia-red: #E8112D;
+  --georgia-white: #FFFFFF;
+}
+
+#georgia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--georgia-white);
+}
+
+#georgia::before,
+#georgia::after {
+  content: "";
+  position: absolute;
+  background: var(--georgia-red);
+}
+
+#georgia::before {
+  top: 0;
+  bottom: 0;
+  left: 40%;
+  width: 20%;
+}
+
+#georgia::after {
+  left: 0;
+  right: 0;
+  top: 40%;
+  height: 20%;
+}

@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Azerbaijan */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --azerbaijan-color1: #00B5E2;
+  --azerbaijan-color2: #EF3340;
+  --azerbaijan-color3: #00AF4D;
+}
+
+#azerbaijan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--azerbaijan-color1) 0.000%,
+    var(--azerbaijan-color1) 33.333%,
+    var(--azerbaijan-color2) 33.333%,
+    var(--azerbaijan-color2) 66.667%,
+    var(--azerbaijan-color3) 66.667%,
+    var(--azerbaijan-color3) 100.000%
+  );
+}

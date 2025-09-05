@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Andorra */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --andorra-color1: #0032A0;
+  --andorra-color2: #FCD116;
+  --andorra-color3: #D90012;
+}
+
+#andorra {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--andorra-color1) 0.000%,
+    var(--andorra-color1) 33.333%,
+    var(--andorra-color2) 33.333%,
+    var(--andorra-color2) 66.667%,
+    var(--andorra-color3) 66.667%,
+    var(--andorra-color3) 100.000%
+  );
+}

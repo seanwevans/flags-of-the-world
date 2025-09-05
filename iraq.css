@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Iraq */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --iraq-color1: #CE1126;
+  --iraq-color2: #FFFFFF;
+  --iraq-color3: #000000;
+}
+
+#iraq {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--iraq-color1) 0.000%,
+    var(--iraq-color1) 33.333%,
+    var(--iraq-color2) 33.333%,
+    var(--iraq-color2) 66.667%,
+    var(--iraq-color3) 66.667%,
+    var(--iraq-color3) 100.000%
+  );
+}

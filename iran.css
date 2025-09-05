@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Iran */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --iran-color1: #239F40;
+  --iran-color2: #FFFFFF;
+  --iran-color3: #DA0000;
+}
+
+#iran {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--iran-color1) 0.000%,
+    var(--iran-color1) 33.333%,
+    var(--iran-color2) 33.333%,
+    var(--iran-color2) 66.667%,
+    var(--iran-color3) 66.667%,
+    var(--iran-color3) 100.000%
+  );
+}

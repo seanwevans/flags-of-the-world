@@ -1,0 +1,32 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Oman */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --oman-red: #C8102E;
+  --oman-green: #007A3D;
+  --oman-white: #FFFFFF;
+}
+
+#oman {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--oman-red) 0%,
+    var(--oman-red) 50%,
+    var(--oman-green) 50%,
+    var(--oman-green) 100%
+  );
+}
+
+#oman::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 33%;
+  background: var(--oman-white);
+}

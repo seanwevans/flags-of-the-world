@@ -1,0 +1,24 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Ethiopia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --ethiopia-color1: #078930;
+  --ethiopia-color2: #FCDD09;
+  --ethiopia-color3: #DA1212;
+}
+
+#ethiopia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--ethiopia-color1) 0.000%,
+    var(--ethiopia-color1) 33.333%,
+    var(--ethiopia-color2) 33.333%,
+    var(--ethiopia-color2) 66.667%,
+    var(--ethiopia-color3) 66.667%,
+    var(--ethiopia-color3) 100.000%
+  );
+}

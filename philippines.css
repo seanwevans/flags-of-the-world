@@ -1,0 +1,33 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Philippines */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --philippines-blue: #0038A8;
+  --philippines-red: #CE1126;
+  --philippines-white: #FFFFFF;
+}
+
+#philippines {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--philippines-blue) 0%,
+    var(--philippines-blue) 50%,
+    var(--philippines-red) 50%,
+    var(--philippines-red) 100%
+  );
+}
+
+#philippines::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--philippines-white);
+  clip-path: polygon(0 0, 0 100%, 50% 50%);
+}

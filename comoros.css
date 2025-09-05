@@ -1,0 +1,27 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Comoros */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --comoros-color1: #FFC61E;
+  --comoros-color2: #FFFFFF;
+  --comoros-color3: #CE1126;
+  --comoros-color4: #3A75C4;
+}
+
+#comoros {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--comoros-color1) 0.000%,
+    var(--comoros-color1) 25.000%,
+    var(--comoros-color2) 25.000%,
+    var(--comoros-color2) 50.000%,
+    var(--comoros-color3) 50.000%,
+    var(--comoros-color3) 75.000%,
+    var(--comoros-color4) 75.000%,
+    var(--comoros-color4) 100.000%
+  );
+}

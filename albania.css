@@ -1,0 +1,18 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Albania */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --albania-color1: #E41E20;
+}
+
+#albania {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--albania-color1) 0.000%,
+    var(--albania-color1) 100.000%
+  );
+}

@@ -1,0 +1,30 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_North Korea */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --north_korea-color1: #024FA2;
+  --north_korea-color2: #FFFFFF;
+  --north_korea-color3: #ED1C27;
+  --north_korea-color4: #FFFFFF;
+  --north_korea-color5: #024FA2;
+}
+
+#north-korea {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--north_korea-color1) 0.000%,
+    var(--north_korea-color1) 20.000%,
+    var(--north_korea-color2) 20.000%,
+    var(--north_korea-color2) 40.000%,
+    var(--north_korea-color3) 40.000%,
+    var(--north_korea-color3) 60.000%,
+    var(--north_korea-color4) 60.000%,
+    var(--north_korea-color4) 80.000%,
+    var(--north_korea-color5) 80.000%,
+    var(--north_korea-color5) 100.000%
+  );
+}

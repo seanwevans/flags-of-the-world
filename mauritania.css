@@ -1,0 +1,8 @@
+/* reference: https://flagcdn.com/mr.svg */
+
+#mauritania {
+  height: 180px;
+  aspect-ratio: 1200/800;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgdmlld0JveD0iMCAwIDMwMDAgMjAwMCI+PHBhdGggZmlsbD0iI2QwMWMxZiIgZD0iTTAgMGgzMDAwdjIwMDBIMHoiLz48cGF0aCBmaWxsPSIjMDBhOTVjIiBkPSJNMCA0MDBoMzAwMHYxMjAwSDB6Ii8+PHBhdGggZmlsbD0iZ29sZCIgZD0iTTEyOTkgNzQ0aDE1M2w0OC0xNDQgNDggMTQ0aDE1M2wtMTI2IDkyIDUxIDE0Ni0xMjYtOTAtMTI2IDkwIDUxLTE0NnptLTU0OS03NGE3NjAuMDkzIDYyOCAwIDAgMCAxNTAwIDAgNzUwIDczMCAwIDAgMS0xNTAwIDB6Ii8+PC9zdmc+');
+  background-size: 100% 100%;
+}

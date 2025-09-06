@@ -1,0 +1,28 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_New_Zealand */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --nz-blue: #00247d;
+  --nz-red: #cc142b;
+  --nz-white: #ffffff;
+}
+
+#new-zealand {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--nz-blue);
+}
+
+#new-zealand::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 15%;
+  height: 15%;
+  background: var(--nz-red);
+  border: 3px solid var(--nz-white);
+  border-radius: 50%;
+}

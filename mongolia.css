@@ -1,0 +1,14 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Mongolia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#mongolia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(90deg, #c4272f 0.000% 33.333%, #005aa7 33.333% 66.667%, #c4272f 66.667% 100.000%);
+  
+}

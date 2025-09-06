@@ -1,0 +1,42 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Dominican_Republic */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --dr-blue: #002d62;
+  --dr-red: #ce1126;
+  --dr-white: #ffffff;
+}
+
+#dominican-republic {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg,
+      var(--dr-blue) 0%,
+      var(--dr-blue) 50%,
+      var(--dr-red) 50%,
+      var(--dr-red) 100%
+    );
+}
+
+#dominican-republic::before,
+#dominican-republic::after {
+  content: "";
+  position: absolute;
+  background: var(--dr-white);
+}
+
+#dominican-republic::before {
+  top: 0;
+  left: 40%;
+  width: 20%;
+  height: 100%;
+}
+
+#dominican-republic::after {
+  left: 0;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}

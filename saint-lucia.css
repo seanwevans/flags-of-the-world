@@ -1,0 +1,42 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Saint_Lucia */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --saint-lucia-blue: #66ccff;
+  --saint-lucia-yellow: #fcd116;
+  --saint-lucia-black: #000000;
+}
+
+#saint-lucia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--saint-lucia-blue);
+}
+
+#saint-lucia::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 25% solid transparent;
+  border-right: 25% solid transparent;
+  border-bottom: 80% solid var(--saint-lucia-yellow);
+  transform: translateX(-50%);
+}
+
+#saint-lucia::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 15% solid transparent;
+  border-right: 15% solid transparent;
+  border-bottom: 60% solid var(--saint-lucia-black);
+  transform: translateX(-50%);
+}

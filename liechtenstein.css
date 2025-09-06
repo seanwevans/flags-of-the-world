@@ -1,0 +1,14 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Liechtenstein */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+}
+
+#liechtenstein {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #002b7f 0.000% 50.000%, #ce1126 50.000% 100.000%);
+  
+}

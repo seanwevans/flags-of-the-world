@@ -1,0 +1,14 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Barbados */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#barbados {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(90deg, #00267f 0.000% 33.333%, #ffc726 33.333% 66.667%, #00267f 66.667% 100.000%);
+  
+}

@@ -1,0 +1,14 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Ecuador */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#ecuador {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #ffdd00 0.000% 50.000%, #003893 50.000% 75.000%, #ce1126 75.000% 100.000%);
+  
+}

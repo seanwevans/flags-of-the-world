@@ -1,0 +1,14 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Haiti */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+}
+
+#haiti {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #00209f 0.000% 50.000%, #d21034 50.000% 100.000%);
+  
+}

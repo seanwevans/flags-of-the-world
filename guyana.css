@@ -1,0 +1,8 @@
+/* reference: https://flagcdn.com/gy.svg */
+
+#guyana {
+  height: 180px;
+  aspect-ratio: 1000/600;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDEwMCA2MCI+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBkPSJtMCAwIDEwMCAzMEwwIDYweiIvPjwvY2xpcFBhdGg+PGNsaXBQYXRoIGlkPSJiIj48cGF0aCBkPSJtMCAwIDUwIDMwTDAgNjB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZmlsbD0iIzJBOTM2QSIgZD0iTTAgMGgxMDB2NjBIMHoiLz48cGF0aCBmaWxsPSIjRkZDMjBFIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNCIgZD0ibTAgMCAxMDAgMzBMMCA2MCIgY2xpcC1wYXRoPSJ1cmwoI2EpIi8+PHBhdGggZmlsbD0iI0JFMUUyRCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjQiIGQ9Im0wIDAgNTAgMzBMMCA2MCIgY2xpcC1wYXRoPSJ1cmwoI2IpIi8+PC9zdmc+');
+  background-size: 100% 100%;
+}

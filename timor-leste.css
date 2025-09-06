@@ -1,0 +1,8 @@
+/* reference: https://flagcdn.com/tl.svg */
+
+#timor-leste {
+  height: 180px;
+  aspect-ratio: 1200/600;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDM2IDE4Ij48cGF0aCBmaWxsPSIjZGEyOTFjIiBkPSJNMCAwaDM2djE4SDB6Ii8+PHBhdGggZmlsbD0iI2ZmYzcyYyIgZD0iTTE4IDkgMCAxOFYweiIvPjxwYXRoIGQ9Ik0xMiA5IDAgMThWMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJtMi43ODIgNi4yNTkgMy44MTUgNC4yNDMtNS41OC0xLjE5TDYuMjMgNi45OTRsLTIuODU3IDQuOTR6Ii8+PC9zdmc+');
+  background-size: 100% 100%;
+}

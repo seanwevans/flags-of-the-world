@@ -1,0 +1,8 @@
+/* reference: https://flagcdn.com/ba.svg */
+
+#bosnia-and-herzegovina {
+  height: 180px;
+  aspect-ratio: 800/400;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDE2IDgiPjxwYXRoIGZpbGw9IiMwMDIzOTUiIGQ9Ik0wIDBoMTZ2OEgweiIvPjxwYXRoIGQ9Ik00LjI0IDBoOHY4eiIgZmlsbD0iI2ZlY2IwMCIvPjxnIGlkPSJiIj48cGF0aCBkPSJNMi4zNTMuNTI1IDIuOC0uODUgMy4yNDcuNTI1bC0xLjE3LS44NWgxLjQ0NnoiIGZpbGw9IiNmZmYiIGlkPSJhIi8+PHVzZSB4bGluazpocmVmPSIjYSIgeD0iMSIgeT0iMSIvPjx1c2UgeGxpbms6aHJlZj0iI2EiIHg9IjIiIHk9IjIiLz48L2c+PHVzZSB4bGluazpocmVmPSIjYiIgeD0iMyIgeT0iMyIvPjx1c2UgeGxpbms6aHJlZj0iI2IiIHg9IjYiIHk9IjYiLz48L3N2Zz4=');
+  background-size: 100% 100%;
+}

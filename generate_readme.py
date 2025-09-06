@@ -22,7 +22,7 @@ def format_name(file_stem: str) -> str:
 
 
 def main(output_path: str = "README.md") -> None:
-    css_files = sorted(Path(".").glob("*.css"))
+    css_files = sorted(Path(".").glob("**/*.css"), key=lambda p: p.stem)
     countries = [format_name(f.stem) for f in css_files]
 
     lines = [

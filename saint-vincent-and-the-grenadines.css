@@ -1,0 +1,36 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Saint_Vincent_and_the_Grenadines */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --svg-blue: #0072c6;
+  --svg-yellow: #fcd116;
+  --svg-green: #009e49;
+}
+
+#saint-vincent-and-the-grenadines {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    90deg,
+    var(--svg-blue) 0%,
+    var(--svg-blue) 25%,
+    var(--svg-yellow) 25%,
+    var(--svg-yellow) 75%,
+    var(--svg-green) 75%,
+    var(--svg-green) 100%
+  );
+}
+
+#saint-vincent-and-the-grenadines::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6%;
+  height: 6%;
+  background: var(--svg-green);
+  transform: translate(-50%, -50%) rotate(45deg);
+  box-shadow: -12% 0 0 0 var(--svg-green), 12% 0 0 0 var(--svg-green);
+}

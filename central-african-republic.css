@@ -1,0 +1,39 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Central_African_Republic */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --car-blue: #003082;
+  --car-white: #ffffff;
+  --car-green: #009543;
+  --car-yellow: #ffce00;
+  --car-red: #d21034;
+}
+
+#central-african-republic {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--car-blue) 0%,
+    var(--car-blue) 25%,
+    var(--car-white) 25%,
+    var(--car-white) 50%,
+    var(--car-green) 50%,
+    var(--car-green) 75%,
+    var(--car-yellow) 75%,
+    var(--car-yellow) 100%
+  );
+}
+
+#central-african-republic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 20%;
+  height: 100%;
+  background: var(--car-red);
+  transform: translateX(-50%);
+}

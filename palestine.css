@@ -1,0 +1,36 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Palestine */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --palestine-black: #000000;
+  --palestine-white: #ffffff;
+  --palestine-green: #007a3d;
+  --palestine-red: #ce1126;
+}
+
+#palestine {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--palestine-black) 0%,
+    var(--palestine-black) 33.333%,
+    var(--palestine-white) 33.333%,
+    var(--palestine-white) 66.666%,
+    var(--palestine-green) 66.666%,
+    var(--palestine-green) 100%
+  );
+}
+
+#palestine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--palestine-red);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}

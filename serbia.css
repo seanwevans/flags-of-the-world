@@ -1,0 +1,14 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Serbia */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#serbia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #ff0000 0.000% 33.333%, #0c4076 33.333% 66.667%, #ffffff 66.667% 100.000%);
+  
+}

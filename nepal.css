@@ -1,0 +1,17 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Nepal */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 2;
+  --nepal-red: #dc143c;
+  --nepal-blue: #003893;
+}
+
+#nepal {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--nepal-red);
+  clip-path: polygon(0 0, 100% 0, 50% 50%, 100% 50%, 50% 100%, 0 100%);
+  border: 10px solid var(--nepal-blue);
+}

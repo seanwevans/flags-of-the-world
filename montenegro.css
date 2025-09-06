@@ -1,0 +1,14 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Montenegro */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 1.5;
+}
+
+#montenegro {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: #d81e05;
+  border: 15px solid #c6aa76;
+}

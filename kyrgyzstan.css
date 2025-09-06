@@ -1,0 +1,27 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Kyrgyzstan */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --kyrgyzstan-red: #e8112d;
+  --kyrgyzstan-yellow: #ffcd00;
+}
+
+#kyrgyzstan {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--kyrgyzstan-red);
+}
+
+#kyrgyzstan::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 30%;
+  background: var(--kyrgyzstan-yellow);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}

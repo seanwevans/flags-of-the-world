@@ -1,0 +1,21 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_San_Marino */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 4;
+  --san-marino-white: #ffffff;
+  --san-marino-blue: #5eb6e4;
+}
+
+#san-marino {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--san-marino-white) 0%,
+    var(--san-marino-white) 50%,
+    var(--san-marino-blue) 50%,
+    var(--san-marino-blue) 100%
+  );
+}

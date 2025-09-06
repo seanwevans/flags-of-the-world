@@ -1,0 +1,42 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Burundi */
+
+:root {
+  --flag-height: 3;
+  --flag-width: 5;
+  --burundi-red: #ce1126;
+  --burundi-green: #1eb53a;
+  --burundi-white: #ffffff;
+}
+
+#burundi {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: conic-gradient(
+    var(--burundi-green) 0deg 90deg,
+    var(--burundi-red) 90deg 180deg,
+    var(--burundi-green) 180deg 270deg,
+    var(--burundi-red) 270deg 360deg
+  );
+}
+
+#burundi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg,
+      transparent 40%,
+      var(--burundi-white) 40%,
+      var(--burundi-white) 60%,
+      transparent 60%
+    ),
+    linear-gradient(-45deg,
+      transparent 40%,
+      var(--burundi-white) 40%,
+      var(--burundi-white) 60%,
+      transparent 60%
+    );
+}

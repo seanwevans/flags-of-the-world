@@ -1,0 +1,33 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_Eritrea */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+  --eritrea-green: #12ad2b;
+  --eritrea-red: #e8112d;
+  --eritrea-blue: #0c1c8c;
+}
+
+#eritrea {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(
+    180deg,
+    var(--eritrea-green) 0%,
+    var(--eritrea-green) 50%,
+    var(--eritrea-blue) 50%,
+    var(--eritrea-blue) 100%
+  );
+}
+
+#eritrea::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--eritrea-red);
+  clip-path: polygon(0 0, 60% 50%, 0 100%);
+}

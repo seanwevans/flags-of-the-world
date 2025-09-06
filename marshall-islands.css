@@ -1,0 +1,35 @@
+/* reference: https://en.wikipedia.org/wiki/Flag_of_the_Marshall_Islands */
+
+:root {
+  --flag-height: 1;
+  --flag-width: 2;
+  --marshall-blue: #003893;
+  --marshall-orange: #ff9c00;
+  --marshall-white: #ffffff;
+}
+
+#marshall-islands {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: var(--marshall-blue);
+}
+
+#marshall-islands::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(15deg,
+    transparent 0%,
+    transparent 45%,
+    var(--marshall-white) 45%,
+    var(--marshall-white) 55%,
+    var(--marshall-orange) 55%,
+    var(--marshall-orange) 65%,
+    transparent 65%,
+    transparent 100%
+  );
+}

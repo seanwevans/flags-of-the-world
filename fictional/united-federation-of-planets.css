@@ -1,0 +1,48 @@
+/* reference: https://memory-alpha.fandom.com/wiki/United_Federation_of_Planets_flag */
+
+#united-federation-of-planets {
+  position: relative;
+  height: 180px;
+  aspect-ratio: 3 / 2;
+  background:
+    radial-gradient(circle at 50% 50%, transparent 29%, rgba(255, 255, 255, 0.85) 29.5%, transparent 31%),
+    radial-gradient(circle at 50% 50%, rgba(120, 187, 255, 0.55) 0 24%, rgba(11, 61, 145, 0.25) 24.5%, transparent 42%),
+    radial-gradient(circle at 28% 32%, rgba(255, 255, 255, 0.95) 0 0.8%, transparent 0.9%),
+    radial-gradient(circle at 45% 28%, rgba(255, 255, 255, 0.95) 0 0.65%, transparent 0.75%),
+    radial-gradient(circle at 60% 25%, rgba(255, 255, 255, 0.95) 0 0.7%, transparent 0.8%),
+    radial-gradient(circle at 70% 36%, rgba(255, 255, 255, 0.95) 0 0.75%, transparent 0.85%),
+    radial-gradient(circle at 52% 44%, rgba(255, 255, 255, 0.95) 0 0.6%, transparent 0.7%),
+    radial-gradient(circle at 37% 52%, rgba(255, 255, 255, 0.95) 0 0.6%, transparent 0.7%),
+    radial-gradient(circle at 66% 54%, rgba(255, 255, 255, 0.95) 0 0.55%, transparent 0.65%),
+    radial-gradient(circle at 48% 64%, rgba(255, 255, 255, 0.95) 0 0.6%, transparent 0.7%),
+    radial-gradient(circle at 61% 69%, rgba(255, 255, 255, 0.95) 0 0.55%, transparent 0.65%),
+    radial-gradient(circle at 34% 38%, rgba(255, 255, 255, 0.9) 0 0.55%, transparent 0.65%),
+    radial-gradient(circle at 58% 33%, rgba(255, 255, 255, 0.9) 0 0.55%, transparent 0.65%),
+    radial-gradient(circle at 42% 48%, rgba(255, 255, 255, 0.9) 0 0.55%, transparent 0.65%),
+    #0b3d91;
+  overflow: hidden;
+  border: 6px solid #082a72;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.35);
+}
+
+#united-federation-of-planets::before,
+#united-federation-of-planets::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  bottom: 16%;
+  width: 26%;
+  background:
+    radial-gradient(ellipse at 50% 12%, rgba(255, 255, 255, 0.95) 0 60%, transparent 62%) top / 100% 18% repeat-y;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.4));
+}
+
+#united-federation-of-planets::before {
+  left: 12%;
+  transform: rotate(-18deg);
+}
+
+#united-federation-of-planets::after {
+  right: 12%;
+  transform: scaleX(-1) rotate(-18deg);
+}

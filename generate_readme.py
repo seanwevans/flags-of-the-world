@@ -10,6 +10,7 @@ SPECIAL_NAMES = {
     "ivory-coast": "Ivory Coast",
     "trinidad-and-tobago": "Trinidad and Tobago",
     "united-arab-emirates": "United Arab Emirates",
+    "united-federation-of-planets": "United Federation of Planets",
 }
 
 

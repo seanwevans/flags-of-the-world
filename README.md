@@ -2,7 +2,7 @@
 
 A showcase of national flags rendered with pure CSS.
 
-Currently, **197** flags are included.
+Currently, **198** flags are included.
 
 ## Completed
 
@@ -193,6 +193,7 @@ Currently, **197** flags are included.
 * [Uganda](https://en.wikipedia.org/wiki/Flag_of_Uganda)
 * [Ukraine](https://en.wikipedia.org/wiki/Flag_of_Ukraine)
 * [United Arab Emirates](https://en.wikipedia.org/wiki/Flag_of_United_Arab_Emirates)
+* [United Federation of Planets](https://en.wikipedia.org/wiki/Flag_of_United_Federation_of_Planets)
 * [United Kingdom](https://en.wikipedia.org/wiki/Flag_of_United_Kingdom)
 * [Uruguay](https://en.wikipedia.org/wiki/Flag_of_Uruguay)
 * [United States](https://en.wikipedia.org/wiki/Flag_of_United_States)

@@ -1,0 +1,13 @@
+/* reference: Fictional flag created for project showcase */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#narnia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #0d47a1 0% 33.333%, #ffffff 33.333% 66.666%, #c62828 66.666% 100%);
+}

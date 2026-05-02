@@ -1,0 +1,13 @@
+/* reference: Fictional flag created for project showcase */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#panem {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #212121 0% 33.333%, #f9a825 33.333% 66.666%, #212121 66.666% 100%);
+}

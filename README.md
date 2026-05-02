@@ -2,7 +2,7 @@
 
 A showcase of national flags rendered with pure CSS.
 
-Currently, **198** flags are included.
+Currently, **208** flags are included.
 
 ## Completed
 
@@ -204,3 +204,13 @@ Currently, **198** flags are included.
 * [Yemen](https://en.wikipedia.org/wiki/Flag_of_Yemen)
 * [Zambia](https://en.wikipedia.org/wiki/Flag_of_Zambia)
 * [Zimbabwe](https://en.wikipedia.org/wiki/Flag_of_Zimbabwe)
+* [Atlantis](#)
+* [Elbonia](#)
+* [Genovia](#)
+* [Gondor](#)
+* [Latveria](#)
+* [Narnia](#)
+* [Panem](#)
+* [Ruritania](#)
+* [Wakanda](#)
+* [Westeros](#)

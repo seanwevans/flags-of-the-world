@@ -1,0 +1,13 @@
+/* reference: Fictional flag created for project showcase */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#genovia {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(90deg, #1b5e20 0% 33.333%, #ffffff 33.333% 66.666%, #b71c1c 66.666% 100%);
+}

@@ -1,0 +1,13 @@
+/* reference: Fictional flag created for project showcase */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#wakanda {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #4a148c 0% 33.333%, #000000 33.333% 66.666%, #6a1b9a 66.666% 100%);
+}

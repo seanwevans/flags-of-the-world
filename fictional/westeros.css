@@ -1,0 +1,13 @@
+/* reference: Fictional flag created for project showcase */
+
+:root {
+  --flag-height: 2;
+  --flag-width: 3;
+}
+
+#westeros {
+  position: relative;
+  height: 180px;
+  aspect-ratio: var(--flag-width) / var(--flag-height);
+  background: linear-gradient(180deg, #37474f 0% 33.333%, #eceff1 33.333% 66.666%, #263238 66.666% 100%);
+}

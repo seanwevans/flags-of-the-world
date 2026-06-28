@@ -8,25 +8,29 @@
   --oman-white: #FFFFFF;
 }
 
+/* Fly: three horizontal bands of white, red and green */
 #oman {
   position: relative;
   height: 180px;
   aspect-ratio: var(--flag-width) / var(--flag-height);
   background: linear-gradient(
     180deg,
-    var(--oman-red) 0%,
-    var(--oman-red) 50%,
-    var(--oman-green) 50%,
+    var(--oman-white) 0%,
+    var(--oman-white) 33.333%,
+    var(--oman-red) 33.333%,
+    var(--oman-red) 66.666%,
+    var(--oman-green) 66.666%,
     var(--oman-green) 100%
   );
 }
 
+/* Vertical red band along the hoist */
 #oman::before {
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 33%;
-  background: var(--oman-white);
+  width: 28%;
+  background: var(--oman-red);
 }

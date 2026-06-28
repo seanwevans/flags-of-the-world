@@ -15,34 +15,16 @@
   overflow: hidden;
 }
 
-#scotland::before,
-#scotland::after {
+/* White saltire (St Andrew's Cross) reaching corner to corner */
+#scotland::before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-#scotland::before {
-  background: linear-gradient(
-    to bottom right,
-    var(--scotland-white) 0%,
-    var(--scotland-white) 15%,
-    transparent 15%,
-    transparent 85%,
-    var(--scotland-white) 85%,
-    var(--scotland-white) 100%
-  );
-}
-
-#scotland::after {
-  background: linear-gradient(
-    to top right,
-    var(--scotland-white) 0%,
-    var(--scotland-white) 15%,
-    transparent 15%,
-    transparent 85%,
-    var(--scotland-white) 85%,
-    var(--scotland-white) 100%
+  inset: 0;
+  background: var(--scotland-white);
+  clip-path: polygon(
+    0 0, 12% 0, 50% 38%, 88% 0, 100% 0,
+    100% 12%, 62% 50%, 100% 88%, 100% 100%,
+    88% 100%, 50% 62%, 12% 100%, 0 100%,
+    0 88%, 38% 50%, 0 12%
   );
 }

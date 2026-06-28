@@ -12,11 +12,13 @@
   position: relative;
   height: 180px;
   aspect-ratio: var(--flag-width) / var(--flag-height);
-  background: linear-gradient(180deg,
-      var(--dr-blue) 0%,
-      var(--dr-blue) 50%,
-      var(--dr-red) 50%,
-      var(--dr-red) 100%
+  /* Four quarters: hoist-top blue, fly-top red, hoist-bottom red, fly-bottom blue */
+  background: conic-gradient(
+      from 0deg at 50% 50%,
+      var(--dr-red) 0deg 90deg,
+      var(--dr-blue) 90deg 180deg,
+      var(--dr-red) 180deg 270deg,
+      var(--dr-blue) 270deg 360deg
     );
 }
 

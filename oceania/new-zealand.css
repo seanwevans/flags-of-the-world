@@ -1,28 +1,8 @@
 /* reference: https://en.wikipedia.org/wiki/Flag_of_New_Zealand */
 
-:root {
-  --flag-height: 1;
-  --flag-width: 2;
-  --nz-blue: #00247d;
-  --nz-red: #cc142b;
-  --nz-white: #ffffff;
-}
-
 #new-zealand {
-  position: relative;
   height: 180px;
-  aspect-ratio: var(--flag-width) / var(--flag-height);
-  background: var(--nz-blue);
-}
-
-#new-zealand::before {
-  content: "";
-  position: absolute;
-  top: 20%;
-  left: 60%;
-  width: 15%;
-  height: 15%;
-  background: var(--nz-red);
-  border: 3px solid var(--nz-white);
-  border-radius: 50%;
+  aspect-ratio: 1280/640;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI2NDAiIHZpZXdCb3g9IjAgMCAxMDA4MCA1MDQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0wIDBoNnYzSDB6Ii8+PC9jbGlwUGF0aD48Y2xpcFBhdGggaWQ9ImIiPjxwYXRoIGQ9Ik0wIDB2MS41aDZWM3ptNiAwSDN2M0gweiIvPjwvY2xpcFBhdGg+PHBhdGggaWQ9InMiIGQ9Ik0wLTEgLjIyNDUtLjMwOSAuOTUxMS0uMzA5IC4zNjMzIC4xMTggLjU4NzggLjgwOSAwIC4zODItLjU4NzggLjgwOS0uMzYzMyAuMTE4LS45NTExLS4zMDktLjIyNDUtLjMwOXoiLz48L2RlZnM+PHBhdGggZmlsbD0iIzAwMjQ3ZCIgZD0iTTAgMGgxMDA4MHY1MDQwSDB6Ii8+PHBhdGggZD0ibTAgMCA2IDNtMC0zTDAgMyIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9Ii42IiBjbGlwLXBhdGg9InVybCgjYSkiIHRyYW5zZm9ybT0ic2NhbGUoODQwKSIvPjxwYXRoIGQ9Im0wIDAgNiAzbTAtM0wwIDMiIHN0cm9rZT0iI2NjMTQyYiIgc3Ryb2tlLXdpZHRoPSIuNCIgY2xpcC1wYXRoPSJ1cmwoI2IpIiB0cmFuc2Zvcm09InNjYWxlKDg0MCkiLz48cGF0aCBkPSJNMjUyMCAwdjI1MjBNMCAxMjYwaDUwNDAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI4NDAiLz48cGF0aCBkPSJNMjUyMCAwdjI1MjBNMCAxMjYwaDUwNDAiIHN0cm9rZT0iI2NjMTQyYiIgc3Ryb2tlLXdpZHRoPSI1MDQiLz48Zz48dXNlIHhsaW5rOmhyZWY9IiNzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3NTYwIDg0MCkgc2NhbGUoMzYwKSIgZmlsbD0iI2ZmZiIvPjx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDg2ODAgMTg2OSkgc2NhbGUoMzYwKSIgZmlsbD0iI2ZmZiIvPjx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYzMDAgMjIwNSkgc2NhbGUoMzYwKSIgZmlsbD0iI2ZmZiIvPjx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc1NjAgNDIwMCkgc2NhbGUoNDE1KSIgZmlsbD0iI2ZmZiIvPjx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc1NjAgODQwKSBzY2FsZSgyODApIiBmaWxsPSIjY2MxNDJiIi8+PHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODY4MCAxODY5KSBzY2FsZSgyODApIiBmaWxsPSIjY2MxNDJiIi8+PHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjMwMCAyMjA1KSBzY2FsZSgyODApIiBmaWxsPSIjY2MxNDJiIi8+PHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzU2MCA0MjAwKSBzY2FsZSgzMzApIiBmaWxsPSIjY2MxNDJiIi8+PC9nPjwvc3ZnPgo=');
+  background-size: 100% 100%;
 }

@@ -12,10 +12,14 @@
   position: relative;
   height: 180px;
   aspect-ratio: var(--flag-width) / var(--flag-height);
-  background:
-    linear-gradient(90deg, var(--panama-white) 0%, var(--panama-white) 50%, var(--panama-red) 50%, var(--panama-red) 100%),
-    linear-gradient(180deg, var(--panama-blue) 0%, var(--panama-blue) 50%, var(--panama-white) 50%, var(--panama-white) 100%);
-  background-size: 100% 50%, 100% 100%;
+  /* Four quarters: hoist-top white, fly-top red, hoist-bottom blue, fly-bottom white */
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    var(--panama-red) 0deg 90deg,
+    var(--panama-white) 90deg 180deg,
+    var(--panama-blue) 180deg 270deg,
+    var(--panama-white) 270deg 360deg
+  );
 }
 
 #panama::before,
